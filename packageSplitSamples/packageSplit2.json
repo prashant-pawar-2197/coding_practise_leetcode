@@ -1,0 +1,290 @@
+{
+    "recordType": "CHF-CDR",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "940eab3adc5446c9c94b44739dc91509",
+    "subscriberIdentifier": "imsi-262231234111130",
+    "nfConsumerInformation": {
+        "networkFunctionality": "SMF",
+        "networkFunctionName": "smfCtf",
+        "networkFunctionPLMNIdentifier": {
+            "mcc": "023",
+            "mnc": "262"
+        }
+    },
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 1,
+            "usedUnitContainer": [
+                {
+                    "time": 300,
+                    "downlinkVolume": 2500000,
+                    "localSequenceNumber": 6061,
+                    "quotaManagementIndicator": "ONLINE_CHARGING",
+                    "totalVolume": 5000000,
+                    "triggers": [
+                        {
+                            "triggerCategory": "IMMEDIATE_REPORT",
+                            "triggerType": "VALIDITY_TIME"
+                        }
+                    ],
+                    "uplinkVolume": 2500000
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "2022-07-01T09:05:25.333Z",
+    "duration": 30,
+    "recordSequenceNumber": 8310110,
+    "causeForRecordClosing": "PartialCDRTimeLimit",
+    "localRecordSequenceNumber": "0419523a-ffdb-4b81-a84c-a52720361b8c::861",
+    "recordExtensions": {
+        "transactionType": "UPDATE",
+        "requestType": "ONLINE_SESSION",
+        "spInformation": {
+            "spId": "541b778b2d524bb4a3d059fb0fbd12ee",
+            "spName": "1u1"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "234111130",
+            "type": "Postpaid",
+            "state": "Active",
+            "msisdn": "9560967401",
+            "imsi": "871299008181401",
+            "subCosID": "1u1_cos",
+            "tariffPlan": "224426e1ad434d739b7c554beae049c4",
+            "subscriberId": "123e4567-e89b-12d3-a456-9763203401",
+            "taxExemption": false
+        },
+        "chargeInformation": [
+            {
+                "ratingIndication": {
+                    "packageId": "084faf88e3514c7f98490a2c4b6c088b",
+                    "productId": "084faf88e3514c7f98490a2c4b6c088b_a0207eadb0093896af4b941d2a3287bb",
+                    "ratingGroup": 1,
+                    "packageInstanceId": "2",
+                    "productInstanceId": "2",
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2030-06-17T23:59:59Z",
+                    "slcStatus": "status1_10_50_MBps",
+                    "reservationTime": "2022-10-12T18:57:09Z",
+                    "changeInBTPCycle": "No"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "RP0000011",
+                            "rateProfileVer": "1",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4,
+                                    "rate": 1,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60
+                                }
+                            ],
+                            "lastAccumRatedUsage": 120,
+                            "taxId": "Tax001",
+                            "ratingType": "TELESCOPIC",
+                            "taxAmount": 1
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 11,
+                            "newBalance": 87,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2020-04-07T00:00:00Z",
+                            "effectiveExpiryDate": "2030-04-21T10:12:13Z"
+                        }
+                    ],
+                    "ratedUsage": 240,
+                    "discountProfile": {
+                        "discountProfileID": "DISC1",
+                        "discountAmount": 2
+                    }
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "084faf88e3514c7f98490a2c4b6c088b",
+                    "productId": "084faf88e3514c7f98490a2c4b6c088b_a0207eadb0093896af4b941d2a3287bb",
+                    "ratingGroup": 1,
+                    "packageInstanceId": "2",
+                    "productInstanceId": "2",
+                    "localSequenceNumber": 0,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "effectiveExpiryDate": "2030-06-17T23:59:59Z",
+                    "slcStatus": "status1_10_50_MBps",
+                    "reservationTime": "2022-10-12T18:57:09Z",
+                    "changeInBTPCycle": "Yes"
+                },
+				"debitAllowance": {
+					"debitAmount": 200,
+					"newBalance": 26818,
+					"ratedUsageUnit": "BYTES"
+				}
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "084faf88e3514c7f98490a2c4b6c088b",
+                    "productId": "084faf88e3514c7f98490a2c4b6c088b_a0207eadb0093896af4b941d2a3287bb",
+                    "ratingGroup": 3,
+                    "packageInstanceId": "2",
+                    "productInstanceId": "2",
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2030-06-17T23:59:59Z",
+                    "slcStatus": "status1_10_50_MBps",
+                    "reservationTime": "2022-10-12T18:57:09Z",
+                    "changeInBTPCycle": "No"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "RP0000011",
+                            "rateProfileVer": "1",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4,
+                                    "rate": 1,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60
+                                }
+                            ],
+                            "lastAccumRatedUsage": 120,
+                            "taxId": "Tax001",
+                            "ratingType": "TELESCOPIC",
+                            "taxAmount": 1
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 11,
+                            "newBalance": 87,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2020-04-07T00:00:00Z",
+                            "effectiveExpiryDate": "2030-04-21T10:12:13Z"
+                        }
+                    ],
+                    "ratedUsage": 240,
+                    "discountProfile": {
+                        "discountProfileID": "DISC1",
+                        "discountAmount": 2
+                    }
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "084faf88e3514c7f98490a2c4b6c088b",
+                    "productId": "084faf88e3514c7f98490a2c4b6c088b_a0207eadb0093896af4b941d2a3287bb",
+                    "ratingGroup": 1,
+                    "packageInstanceId": "2",
+                    "productInstanceId": "2",
+                    "localSequenceNumber": 0,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "effectiveExpiryDate": "2030-06-17T23:59:59Z",
+                    "slcStatus": "status1_10_50_MBps",
+                    "reservationTime": "2022-10-12T18:57:09Z",
+                    "changeInBTPCycle": "Yes"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "RP0000011",
+                            "rateProfileVer": "1",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4,
+                                    "rate": 1,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60
+                                }
+                            ],
+                            "lastAccumRatedUsage": 120,
+                            "taxId": "Tax001",
+                            "ratingType": "TELESCOPIC",
+                            "taxAmount": 1
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 11,
+                            "newBalance": 77,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2020-04-07T00:00:00Z",
+                            "effectiveExpiryDate": "2030-04-21T10:12:13Z"
+                        }
+                    ],
+                    "ratedUsage": 240,
+                    "discountProfile": {
+                        "discountProfileID": "DISC1",
+                        "discountAmount": 2
+                    }
+                }
+            }
+        ]
+    },
+    "pduSessionChargingInformation": {
+        "pduSessionInformation": {
+            "authorizedSessionAMBR": {
+                "downlink": "8000000",
+                "uplink": "8000000"
+            },
+            "dnnId": "fwaint.mnc023.mcc262.gprs",
+            "networkSlicingInfo": {
+                "sNSSAI": {
+                    "sd": "000001",
+                    "sst": 1
+                }
+            },
+            "pduAddress": {
+                "pduIPv4Address": "10.31.35.242"
+            },
+            "pduSessionID": 1,
+            "pduType": "IPV4",
+            "ratType": "NR",
+            "servingCNPlmnId": {
+                "mcc": "023",
+                "mnc": "262"
+            },
+            "subscribedSessionAMBR": {
+                "downlink": "1000000",
+                "uplink": "1000000"
+            }
+        },
+        "userInformation": {
+            "servedGPSI": "msisdn-9560967441",
+            "servedPEI": "imeisv-8690370501301310"
+        },
+        "userLocationinfo": {
+            "nrLocation": {
+                "ncgi": {
+                    "nrCellId": "0499602D30",
+                    "plmnId": {
+                        "mcc": "023",
+                        "mnc": "262"
+                    }
+                },
+                "tai": {
+                    "plmnId": {
+                        "mcc": "622\u0000",
+                        "mnc": "215\u0000"
+                    },
+                    "tac": "000065"
+                }
+            }
+        }
+    },
+    "resultCode": "SUCCESS"
+}

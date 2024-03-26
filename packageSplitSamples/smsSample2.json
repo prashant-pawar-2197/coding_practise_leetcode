@@ -1,0 +1,147 @@
+{
+    "recordType": "SMS-MOBILE-TERMINATED",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "dc01mavtas01diam02.1u1.de;1096052010;1",
+    "subscriberIdentifier": "nai-4915025248193@dummy.com",
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 6,
+            "usedUnitContainer": [
+                {
+                    "eventTimeStamps": [
+                        "2022-11-11T13:30:00Z"
+                    ],
+                    "localSequenceNumber": 0,
+                    "serviceSpecificUnits": 1
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "2022-11-11T13:30:00Z",
+    "duration": 0,
+    "recordSequenceNumber": 0,
+    "causeForRecordClosing": "NormalRelease",
+    "localRecordSequenceNumber": "cb1354e3-cb8b-4f2a-9fab-5554796e86cf::5662",
+    "recordExtensions": {
+        "transactionType": "EVENT",
+        "requestType": "ONLINE_EVENT",
+        "spInformation": {
+            "spId": "00000011",
+            "spName": "drillisch"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "00000011-0000-4000-8000-915025248193",
+            "type": "Prepaid",
+            "state": "Active",
+            "msisdn": "4915025248193",
+            "imsi": "262238990527017",
+            "subCosID": "PrePaidCOS",
+            "tariffPlan": "e6a8003fe91745278ab17312ded57c75",
+            "subscriberId": "00000011-0000-4000-8000-915025248193",
+            "taxExemption": false
+        },
+        "chargeInformation": [
+            {
+                "ratingIndication": {
+                    "packageId": "e6a8003fe91745278ab17312ded57c75",
+                    "productId": "e6a8003fe91745278ab17312ded57c75_077a050aef3e3db695415c4d25d102db",
+                    "ratingGroup": 6,
+                    "packageInstanceId": "1",
+                    "productInstanceId": "1",
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "UNITS",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2022-11-11T22:59:59Z",
+                    "reservationTime": "2022-11-11T13:30:00Z"
+                },
+                "debitAllowance": {
+                    "debitAmount": 1,
+                    "newBalance": 4611686018427388000,
+                    "ratedUsageUnit": "UNITS"
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "e6a8003fe91745278ab17312ded57c75",
+                    "productId": "e6a8003fe91745278ab17312ded57c75_077a050aef3e3db695415c4d25d102db",
+                    "ratingGroup": 6,
+                    "packageInstanceId": "1",
+                    "productInstanceId": "1",
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "UNITS",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2022-11-11T22:59:59Z",
+                    "reservationTime": "2022-11-11T13:30:00Z"
+                },
+                "debitCash": {
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 0,
+                            "newBalance": 100913370000,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2022-11-10T05:40:40Z",
+                            "effectiveExpiryDate": "2023-10-10T21:37:40Z"
+                        }
+                    ]
+                }
+            }
+        ],
+        "extChargingInformation": {
+            "callDestinationType": "CDT_NATIONAL",
+            "roamType": "RT_NO_ROAM",
+            "networkFlag": "NF_OFFNET",
+            "callLeg": "CL_MT",
+            "subServiceType": "MT-LOCAL",
+            "visitedMCCMNC": "262230",
+            "visitedCountryCode": "262230",
+            "ratType": "4G"
+        }
+    },
+    "userEquipmentInfo": "imeisv-38363937303630353231313630343046",
+    "imsInfo": {
+        "roleofNode": 0,
+        "accessNetworkInformation": [
+            "3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=26223006502CB001"
+        ],
+        "iMSVisitedNetworkIdentifier": "ims.mnc023.mcc262.3gppnetwork.org",
+        "nodeFunctionality": 0
+    },
+    "sMSChargingInformation": {
+        "numberofMessagesSent": 1,
+        "originatorInfo": {
+            "originatorReceivedAddress": {
+                "sMaddressData": "4915025246122",
+                "sMaddressDomain": {
+                    "3GPPIMSIMCCMNC": "262038990524946"
+                },
+                "sMaddressType": "MSISDN"
+            },
+            "sMOriginatorInterface": {
+                "interfaceType": "MOBILE_ORIGINATING"
+            },
+            "sMOriginatorProtocolId": "\u0000\u0000\u0000\u001e"
+        },
+        "recipientInfo": [
+            {
+                "recipientOtherAddress": {
+                    "sMaddressData": "4915025248193",
+                    "sMaddressDomain": {
+                        "3GPPIMSIMCCMNC": "262238990527017"
+                    },
+                    "sMaddressType": "MSISDN"
+                },
+                "recipientSCCPAddress": "34393137363030303034323130",
+                "sMDestinationInterface": {
+                    "interfaceType": "MOBILE_TERMINATING"
+                }
+            }
+        ],
+        "sMMessageType": "DELIVERY_REPORT",
+        "sMSCAddress": "34393135353636333935313430",
+        "smNode": 1
+    },
+    "resultCode": "SUCCESS",
+    "originHost": "seagull-host.mnc023.mcc262.3gppnetwork.org",
+    "originRealm": "seagull.mnc023.mcc262.3ppnetwork.org"
+}

@@ -1,0 +1,218 @@
+{
+	"recordType": "MMS-MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "dc01mavtas01diam02.1u1.de;1092810465;1",
+	"subscriberIdentifier": "nai-4915025262281@dummy.com",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 3,
+			"usedUnitContainer": [
+				{
+					"eventTimeStamps": [
+						"2023-08-18T15:21:30Z"
+					],
+					"localSequenceNumber": 0,
+					"serviceSpecificUnits": 1
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-08-18T15:21:30Z",
+	"duration": 0,
+	"recordSequenceNumber": 0,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "70e79dec-e803-4d0e-b4cd-324495a049f5::28922",
+	"recordExtensions": {
+		"transactionType": "EVENT",
+		"requestType": "ONLINE_EVENT",
+		"spInformation": {
+			"spId": "00000333",
+			"spName": "drillisch"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "012001011127",
+			"type": "Prepaid",
+			"state": "Active",
+			"msisdn": "4915025262281",
+			"imsi": "262238990540205",
+			"subCosID": "PrePaidCOS",
+			"tariffPlan": "c6abf27a82ec4ed69d2b83d3df88807f",
+			"subscriberId": "00000333-0000-4000-8000-012001011127",
+			"taxExemption": false,
+			"btpExpireTime": "2023-08-31T21:59:59Z",
+			"imsiSiteId": "SITE2"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "3a2a310c91244acb8fd689cfc32ce15f",
+					"productId": "3a2a310c91244acb8fd689cfc32ce15f_e054d6dbf3e03f4a80f03f78edde15a3",
+					"ratingGroup": 3,
+					"packageInstanceId": "9",
+					"productInstanceId": "9",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-08-19T21:59:59Z",
+					"reservationTime": "2023-08-18T15:21:30Z",
+					"balanceType": "MMS",
+					"additionalParam": {
+						"selectedAttributeList": {
+							"INTL_USAGE_ZONE": "Worldzone_10",
+							"ROAMING_USAGE_ZONE": "Worldzone_1"
+						}
+					}
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "PRP_MMS",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 4611686018427387904,
+									"rate": 40000000,
+									"ratedUnit": "UNITS",
+									"unitSize": 1
+								}
+							],
+							"lastAccumRatedUsage": 25,
+							"taxId": "Tax19",
+							"ratingType": "TIERED",
+							"taxAmount": 7600000,
+							"premiumRateType": "RP",
+							"tierIndex": 1
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 47600000,
+							"newBalance": 87029480000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-07-20T09:37:48Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						},
+						{
+							"balanceId": "BAL000001",
+							"debitAmount": 0,
+							"newBalance": 493172925764,
+							"balanceType": "PC",
+							"effectiveStartDate": "2023-07-20T09:37:48Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					],
+					"ratedUsage": 1
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "3a2a310c91244acb8fd689cfc32ce15f",
+					"productId": "3a2a310c91244acb8fd689cfc32ce15f_e054d6dbf3e03f4a80f03f78edde15a3",
+					"ratingGroup": 3,
+					"packageInstanceId": "9",
+					"productInstanceId": "9",
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-08-18T15:21:30Z"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91002_NUC_MMS",
+							"rateProfileVer": "2",
+							"rates": [
+								{
+									"low": 0,
+									"high": 4611686018427387904,
+									"rate": 60000000,
+									"ratedUnit": "UNITS",
+									"unitSize": 1
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "Tax19",
+							"ratingType": "TELESCOPIC",
+							"taxAmount": 11400000,
+							"premiumRateType": "NetworkUsage"
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 71400000,
+							"newBalance": 86958080000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-07-20T09:37:48Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						},
+						{
+							"balanceId": "BAL000001",
+							"debitAmount": 0,
+							"newBalance": 493172925764,
+							"balanceType": "PC",
+							"effectiveStartDate": "2023-07-20T09:37:48Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					],
+					"ratedUsage": 1
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_NATIONAL",
+			"roamType": "RT_INTERNATIONAL",
+			"networkFlag": "NF_OFFNET",
+			"callLeg": "CL_MO",
+			"subServiceType": "MMS-MO-LOCAL",
+			"visitedMCCMNC": "21405",
+			"visitedCountryCode": "34",
+			"destinationCountryCode": "49",
+			"roamUsageZone": [
+				"Worldzone_1"
+			],
+			"intlUsageZone": [
+				"Worldzone_10"
+			],
+			"ratType": "UNKNOWN"
+		}
+	},
+	"userEquipmentInfo": "imeisv-38363937303630353231313630343046",
+	"mmsInfo": {
+		"origAddress": {
+			"sMaddressData": "4915025262281",
+			"sMaddressDomain": {
+				"3GPPIMSIMCCMNC": "262238990540205"
+			},
+			"sMaddressType": "MSISDN"
+		},
+		"recipientAddress": [
+			{
+				"sMaddressData": "4915025263983",
+				"sMaddressDomain": {
+					"3GPPIMSIMCCMNC": "262038990541517"
+				},
+				"sMaddressType": "MSISDN"
+			}
+		],
+		"submissionTime": "2023-08-11T15:21:10Z",
+		"messageID": "1111111765",
+		"mMContentType": {
+			"typeNumber": 16,
+			"additionalContentInformation": [
+				{
+					"typeNumber": 28
+				}
+			]
+		},
+		"priority": 1,
+		"messageType": 1,
+		"messageSize": 600
+	},
+	"psInfo": {
+		"tgppSGSNMCCMNC": "21405",
+		"tgppRATTYPE": "UNKNOWN"
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "seagull-host.mnc023.mcc262.3gppnetwork.org",
+	"originRealm": "seagull.mnc023.mcc262.3ppnetwork.org",
+	"cDCIdentifier": "SITE1"
+}

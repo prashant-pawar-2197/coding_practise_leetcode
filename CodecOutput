@@ -1,0 +1,170 @@
+{
+    "anncInfo": {},
+    "cDCIdentifier": "SITE1",
+    "causeForRecordClosing": "PartialCDRTimeLimit",
+    "chargingSessionIdentifier": "mtas.mavenir.com;1467855406;112",
+    "duration": 10,
+    "imsInfo": {
+        "accessNetworkInformation": [
+            "3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=3133402711003E800"
+        ],
+        "calledPartyAddress": "sip:313340920000081@ims.mnc340.mcc313.3gppnetwork.org;user=phone",
+        "callingPartyAddress": [
+            "sip:+498920000080@ims.mnc340.mcc313.3gppnetwork.org",
+            "tel:+498920000080;verstat=TN-Validation-Passed"
+        ],
+        "iMSChargingIdentifier": "0.614.0-1689932364.82",
+        "iMSVisitedNetworkIdentifier": "ims.mnc050.mcc405.3gppnetwork.org",
+        "instanceID": "urn:gsma:imei:35957804-000456-123;svn=04",
+        "interOperatorIdentifier": [
+            {
+                "originatingIOI": "32345"
+            }
+        ],
+        "nodeFunctionality": 6,
+        "roleofNode": 1,
+        "sDPMediaComponent": [
+            {
+                "sDPMediaDescription": [
+                    "a=ptime:20",
+                    "a=maxptime:240",
+                    "a=sendrecv",
+                    "a=curr:qos local sendrecv",
+                    "a=curr:qos remote sendrecv",
+                    "a=des:qos optional local sendrecv",
+                    "a=des:qos mandatory remote sendrecv",
+                    "a=fmtp:99 0-15",
+                    "a=msi:mavodi-0-15b-2-1-ffffffff-5970000-6003074451e27-170001-ffffffffffffffff-@127.0.0.1-127.0.0.1;UAG_NF",
+                    "a=rtpmap:8 PCMA/8000",
+                    "b=AS:88"
+                ],
+                "sDPMediaName": "m=audio 11624 RTP/AVP 8",
+                "sDPType": 1
+            }
+        ],
+        "sDPSessionDescription": [
+            "v=0",
+            "o=ccs-0-615-9 06129782541015 1603003576 IN IP6 fcff:69:86::200",
+            "s=-",
+            "c=IN IP6 fcff:69:86::200",
+            "b=AS:88",
+            "t=0 0"
+        ],
+        "timeStamps": {
+            "sIPRequestTimeStamp": "2023-07-21T09:39:26Z",
+            "sIPRequestTimeStampFraction": 547,
+            "sIPResponseTimeStamp": "2023-07-21T09:39:36Z",
+            "sIPResponseTimeStampFraction": 290
+        },
+        "userSessionID": "42A608BDAE5A-2918-4b6d3700-769-64ba524e-666b4"
+    },
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 5001,
+            "usedUnitContainer": [
+                {
+                    "localSequenceNumber": 0,
+                    "serviceId": 10
+                }
+            ]
+        }
+    ],
+    "localRecordSequenceNumber": "4780cfaf-2b41-41c1-849e-0cc1fa546082::816",
+    "mavenirTASExtension": {
+        "transactionType": 3
+    },
+    "mmtelInfo": {
+        "supplementaryService": [
+            {
+                "mMTelServiceType": 1028,
+                "serviceMode": -1
+            }
+        ]
+    },
+    "originHost": "mtas.mavenir.com",
+    "originRealm": "mavenir.com",
+    "recordExtensions": {
+        "chargeInformation": [
+            {
+                "debitAllowance": {
+                    "debitAmount": 0,
+                    "lastAccumRatedQuotaUsage": 0,
+                    "newBalance": 21474824521
+                },
+                "ratingIndication": {
+                    "defaultPulse": 10,
+                    "defaultPulseUnit": "SEC",
+                    "effectiveExpiryDate": "2023-12-12T05:59:59Z",
+                    "localSequenceNumber": 0,
+                    "packageId": "8a2d794b9f3b4b59a0e51efcac7415ce",
+                    "packageInstanceId": "1",
+                    "productId": "8a2d794b9f3b4b59a0e51efcac7415ce_3c71ad3d87703097af80954f280fde02",
+                    "productInstanceId": "1",
+                    "ratingGroup": 5001,
+                    "reservationTime": "2023-07-21T09:39:26Z"
+                }
+            },
+            {
+                "debitCash": {
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "balanceType": "GC",
+                            "debitAmount": 0,
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z",
+                            "effectiveStartDate": "2022-12-20T06:39:49Z",
+                            "newBalance": 1907299994020
+                        }
+                    ]
+                },
+                "ratingIndication": {
+                    "defaultPulse": 10,
+                    "defaultPulseUnit": "SEC",
+                    "effectiveExpiryDate": "2023-12-12T05:59:59Z",
+                    "localSequenceNumber": 0,
+                    "packageId": "8a2d794b9f3b4b59a0e51efcac7415ce",
+                    "packageInstanceId": "1",
+                    "productId": "8a2d794b9f3b4b59a0e51efcac7415ce_3c71ad3d87703097af80954f280fde02",
+                    "productInstanceId": "1",
+                    "ratingGroup": 5001,
+                    "reservationTime": "2023-07-21T09:39:26Z"
+                }
+            }
+        ],
+        "extChargingInformation": {
+            "callDestinationType": "CDT_NATIONAL",
+            "callLeg": "CL_MT",
+            "calledPartyTerminalType": "CPTT_MOBILE",
+            "forwardedFlag": "FL_NON_FORWARDED",
+            "networkFlag": "NF_ONNET",
+            "ratType": "4G",
+            "roamType": "RT_NO_ROAM",
+            "subServiceType": "MO-ROAMING"
+        },
+        "requestType": "ONLINE_SESSION",
+        "spInformation": {
+            "spId": "76541239",
+            "spName": "tig"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "76541239-1234-4ab5-8ab9-cc8920000081",
+            "btpExpireTime": "2023-12-12T05:59:59Z",
+            "imsi": "313340920000081",
+            "msisdn": "498920000081",
+            "state": "Active",
+            "subCosID": "BTP_COS_21",
+            "subscriberId": "76541239-1234-4ab5-8ab9-cc8920000081",
+            "tariffPlan": "8a2d794b9f3b4b59a0e51efcac7415ce",
+            "taxExemption": false,
+            "type": "Prepaid"
+        },
+        "transactionType": "UPDATE"
+    },
+    "recordOpeningTime": "2023-07-24T06:17:36Z",
+    "recordSequenceNumber": 1,
+    "recordType": "MOBILE-TERMINATED",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "resultCode": "SUCCESS",
+    "subscriberIdentifier": "imsi-313340920000081",
+    "userEquipmentInfo": "imeisv-33353935373830343030303435363034"
+}

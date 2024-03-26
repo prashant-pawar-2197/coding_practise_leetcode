@@ -1,0 +1,163 @@
+{
+    "recordType": "SMS-MOBILE-ORIGINATED",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "dc01mavtas01diam02.1u1.de;1096000246;1",
+    "subscriberIdentifier": "nai-4915025249330@dummy.com",
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 6,
+            "usedUnitContainer": [
+                {
+                    "eventTimeStamps": [
+                        "2023-01-30T08:58:00Z"
+                    ],
+                    "localSequenceNumber": 0,
+                    "serviceSpecificUnits": 1
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "2023-01-30T08:58:00Z",
+    "duration": 0,
+    "recordSequenceNumber": 0,
+    "causeForRecordClosing": "NormalRelease",
+    "localRecordSequenceNumber": "2dadecf2-e29b-4b97-933e-e66efc764a85::76720",
+    "recordExtensions": {
+        "transactionType": "EVENT",
+        "requestType": "ONLINE_EVENT",
+        "spInformation": {
+            "spId": "00000333",
+            "spName": "drillisch"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "915025249330",
+            "type": "Prepaid",
+            "state": "Active",
+            "msisdn": "4915025249330",
+            "imsi": "262238990528154",
+            "subCosID": "PrePaidCOS",
+            "tariffPlan": "e6a8003fe91745278ab17312ded57c75",
+            "subscriberId": "00000333-0000-4000-8000-915025249330",
+            "taxExemption": false,
+            "btpExpireTime": "2023-01-31T22:59:59Z"
+        },
+        "chargeInformation": [
+            {
+                "ratingIndication": {
+                    "packageId": "e6a8003fe91745278ab17312ded57c75",
+                    "productId": "e6a8003fe91745278ab17312ded57c75_13a86ca67b9638f997dbcf860197ea4a",
+                    "ratingGroup": 6,
+                    "packageInstanceId": "1",
+                    "productInstanceId": "1",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2023-01-31T22:59:59Z",
+                    "reservationTime": "2023-01-30T08:58:00Z",
+                    "balanceType": "SMS"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "SMS_PAG_1",
+                            "rateProfileVer": "4",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4611686018427387904,
+                                    "rate": 6000000,
+                                    "ratedUnit": "UNITS",
+                                    "unitSize": 1
+                                }
+                            ],
+                            "lastAccumRatedUsage": 52,
+                            "taxId": "Tax19",
+                            "ratingType": "TIERED",
+                            "taxAmount": 1140000,
+                            "premiumRateType": "RP"
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 7140000,
+                            "newBalance": 28396999000,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2023-01-18T00:00:00Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        },
+                        {
+                            "balanceId": "BAL000001",
+                            "debitAmount": 0,
+                            "newBalance": 300000000000,
+                            "balanceType": "PC",
+                            "effectiveStartDate": "2023-01-18T12:20:33Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        }
+                    ],
+                    "ratedUsage": 1
+                }
+            }
+        ],
+        "extChargingInformation": {
+            "callDestinationType": "CDT_NATIONAL",
+            "roamType": "RT_NO_ROAM",
+            "networkFlag": "NF_OFFNET",
+            "callLeg": "CL_MO",
+            "subServiceType": "MO-LOCAL",
+            "visitedMCCMNC": "262230",
+            "visitedCountryCode": "49",
+            "ratType": "4G"
+        }
+    },
+    "userEquipmentInfo": "imeisv-38363937303630353231313630343046",
+    "imsInfo": {
+        "roleofNode": 0,
+        "accessNetworkInformation": [
+            "3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=26223006502CB001"
+        ],
+        "iMSVisitedNetworkIdentifier": "ims.mnc023.mcc262.3gppnetwork.org",
+        "nodeFunctionality": 0
+    },
+    "sMSChargingInformation": {
+        "numberofMessagesSent": 1,
+        "originatorInfo": {
+            "originatorReceivedAddress": {
+                "sMaddressData": "4915025249330",
+                "sMaddressDomain": {
+                    "3GPPIMSIMCCMNC": "262238990528154"
+                },
+                "sMaddressType": "MSISDN"
+            },
+            "originatorSCCPAddress": "4915566010940",
+            "sMOriginatorInterface": {
+                "interfaceType": "MOBILE_ORIGINATING"
+            },
+            "sMOriginatorProtocolId": "\u0000\u0000\u0000\u001E"
+        },
+        "recipientInfo": [
+            {
+                "recipientOtherAddress": {
+                    "sMaddressData": "4915566111883",
+                    "sMaddressDomain": {
+                        "3GPPIMSIMCCMNC": "262011234111883"
+                    },
+                    "sMaddressType": "MSISDN"
+                },
+                "recipientSCCPAddress": "\u0000\b4915566010940",
+                "sMDestinationInterface": {
+                    "interfaceType": "MOBILE_TERMINATING"
+                }
+            }
+        ],
+        "sMMessageType": "SUBMISSION",
+        "sMSCAddress": "4915566010940",
+        "smNode": 1
+    },
+    "mmsInfo": {
+        "messageID": "1234567890256",
+        "messageSize": 1
+    },
+    "resultCode": "SUCCESS",
+    "originHost": "seagull-host.mnc023.mcc262.3gppnetwork.org",
+    "originRealm": "seagull.mnc023.mcc262.3ppnetwork.org",
+    "cDCIdentifier": "SITE1"
+}

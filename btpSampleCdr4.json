@@ -1,0 +1,254 @@
+{
+	"recordType": "CHF-CDR",
+	"recordingNetworkFunctionId": "123456",
+	"chargingSessionIdentifier": "si13.beltas01.tas.sip.lab.t-mobile.com;1841111692;331",
+	"subscriberIdentifier": "imsi-405050000001000",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 100,
+			"usedUnitContainer": [
+				{
+                    "time": 500,
+					"downlinkVolume": 50,
+					"localSequenceNumber": 1,
+					"totalVolume": 100,
+					"triggers": [
+						{
+							"triggerCategory": "",
+							"triggerType": "UNIT_AFTER_TARIFF_CHANGE"
+						}
+					],
+					"uplinkVolume": 50
+				},
+				{
+					"downlinkVolume": 100,
+					"localSequenceNumber": 0,
+					"totalVolume": 200,
+					"triggers": [
+						{
+							"triggerCategory": "",
+							"triggerType": "UNIT_BEFORE_TARIFF_CHANGE"
+						}
+					],
+					"uplinkVolume": 100
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2036-02-07T06:28:17Z",
+	"duration": 0,
+	"recordSequenceNumber": 1,
+	"causeForRecordClosing": "PartialCDRVolumeLimit",
+	"localRecordSequenceNumber": "::34",
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "SP00000001",
+			"spName": "T-Mobile"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "0843634681",
+			"type": "Prepaid",
+			"msisdn": "+14699164393",
+			"subCosID": "ABC",
+			"tariffPlan": "UTTP00000001",
+			"subscriberId": "405050000001000",
+			"taxExemption": true
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "UTPKG0000100",
+					"productId": "UTPKG0000100_UTData000100",
+					"ratingGroup": 100,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 2,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2041-04-30T23:59:59Z",
+					"reservationTime": "2022-10-12T18:57:09Z",
+					"changeInBTPCycle": "No"
+				},
+				"debitAllowance": {
+					"debitAmount": 200,
+					"newBalance": 26818,
+					"ratedUsageUnit": "BYTES"
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "UTPKG0000100",
+					"productId": "UTPKG0000100_UTData000100",
+					"ratingGroup": 100,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 2,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2041-04-30T23:59:59Z",
+					"reservationTime": "2022-10-12T18:57:09Z",
+					"changeInBTPCycle": "No"
+				},
+				"debitCash": {
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 0,
+							"newBalance": 0,
+							"balanceType": "GC",
+							"effectiveStartDate": "2020-04-01T13:34:21Z",
+							"effectiveExpiryDate": "2041-04-30T23:59:59Z"
+						},
+						{
+							"balanceId": "UTBAL0000071",
+							"debitAmount": 0,
+							"newBalance": 20,
+							"balanceType": "PC",
+							"effectiveStartDate": "2020-04-01T13:34:21Z",
+							"effectiveExpiryDate": "2041-04-30T23:59:59Z"
+						}
+					],
+                    "ratedUsage": 240
+				}
+			},
+            {
+				"ratingIndication": {
+					"packageId": "UTPKG0000100",
+					"productId": "UTPKG0000100_UTData000100",
+					"ratingGroup": 100,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 2,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2041-04-30T23:59:59Z",
+					"reservationTime": "2022-10-12T18:57:09Z",
+					"changeInBTPCycle": "Yes"
+				},
+				"debitAllowance": {
+					"debitAmount": 100,
+					"newBalance": 26718,
+					"ratedUsageUnit": "BYTES"
+				}
+			}
+		],
+		"extChargingInformation": {
+			"visitedMCCMNC": "ROAM",
+			"ratType": "RAT"
+		}
+	},
+	"pduSessionChargingInformation": {
+		"chargingId": -1,
+		"pduSessionInformation": {
+			"chargingCharacteristics": "DATA",
+			"chargingCharacteristicsSelectionMode": "Roaming_Default",
+			"diagnostics": 50,
+			"dnnId": "000050D7F79C-3288-1689e700-48-5aa9a25e-59ddf",
+			"dnnSelectionMode": "ABC",
+			"pduAddress": {
+				"pduIPv4Address": "sip:19144392273@msg.lab.t-mobile.com",
+				"pduIPv6AddresswithPrefix": "sip:19144392273@msg.lab.t-mobile.com"
+			},
+			"pduSessionID": 0,
+			"pduType": "PPP",
+			"ratType": "RAT",
+			"startTime": "2036-02-07T06:28:16Z",
+			"pduContainerInformation": {
+				"chargingRuleBaseName": "CCS",
+				"qoSInformation": {
+					"5qi": 69,
+					"gbrDl": "25",
+					"gbrUl": "20",
+					"maxbrDl": "15",
+					"maxbrUl": "10",
+					"qosId": "",
+					"bearerIdentifier": "QWERTY",
+					"allocationRetentionPriority": {
+						"priorityLevel": 30,
+						"preEmptionVulnerability": 1
+					},
+					"apnAggregateMaxBitrateUL": 35,
+					"apnAggregateMaxBitrateDL": 40
+				}
+			}
+		},
+		"presenceReportingAreaInformation": {
+			"0": {
+				"praId": "xyzAAA",
+				"presenceState": "1234",
+				"presenceReportingAreaElementsList": "3GPP TS 29.274"
+			}
+		},
+		"uetimeZone": "UTC",
+		"userInformation": {
+			"unauthenticatedFlag": true
+		},
+		"userLocationTime": "2036-02-07T06:28:17Z",
+		"pDNConnectionChargingID": 12345,
+		"nodeId": "qi31.rre",
+		"sgsnAddress": [
+			"sip:19144392275@msg.lab.t-mobile.com",
+			"sip:19144392276@msg.lab.t-mobile.com"
+		],
+		"ggsnAddress": [
+			"sip:19144392277@msg.lab.t-mobile.com",
+			"sip:19144392278@msg.lab.t-mobile.com"
+		],
+		"tdfIPAddress": [
+			"sip:19144392279@msg.lab.t-mobile.com",
+			"sip:19144392280@msg.lab.t-mobile.com"
+		],
+		"servingNodeType": "TWAN",
+		"n3GPPIMSIMCCMNC": "INDIA",
+		"n3GPPGGSNMCCMNC": "APD",
+		"n3GPPNSAPI": "JAL",
+		"n3GPPSGSNMCCMNC": "ROAM",
+		"n3GPPUserLocationInfo": "ALIPUDUAR",
+		"userCSGInformation": {
+			"csgId": 11444
+		},
+		"n3GPP2BSID": "3GPP TS 29.274",
+		"twanUserLocationInfo": {
+			"ssid": "Tnyd2323UJDN",
+			"bssid": "3yd7UFNS88"
+		},
+		"pdpContextType": "PRIMARY",
+		"nbifomMode": "UE_INITIATED",
+		"nbifomSupport": "NBIFOM_SUPPORTED",
+		"fixedUserLocationInfo": {
+			"ssid": "Tnyd2323UJDN",
+			"bssid": "3yd7UFNS88",
+			"logicalAccessID": "10.22.197.178",
+			"physicalAccessID": "10.22.197.187"
+		},
+		"sgiPtPTunnellingMethod": "Others",
+		"UNIPDUCPOnlyFlag": "UNI_PDU_both_UP_CP",
+		"servingPLMNRateControl": {
+			"uplinkRateLimit": 100,
+			"downlinkRateLimit": 200
+		},
+		"apnRateControl": {
+			"apnRateControlUplink": {
+				"additionalExceptionReports": "Not_allowed",
+				"rateControlMaxRate": 500
+			},
+			"apnRateControlDownlink": {
+				"rateControlMaxMessageSize": 300,
+				"rateControlMaxRate": 200
+			}
+		},
+		"scsAsAddress": {
+			"scsRealm": "dfdfe"
+		},
+		"uwanUserLocationInfo": {
+			"ueLocalIPAddress": "10.22.197.178",
+			"udpSourcePort": 9978,
+			"ssid": "Tnyd2323UJDN",
+			"bssid": "3yd7UFNS88"
+		}
+	},
+	"userEquipmentInfo": "imeisv-33353835303530383030323032313046",
+	"resultCode": "SUCCESS"
+}

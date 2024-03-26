@@ -1,0 +1,264 @@
+{
+	"recordType": "MOBILE-ORIGINATED",
+	"basicService": "Voice",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "dc01mavtas01diam02.1u1.de;8010011001;e",
+	"subscriberIdentifier": "imsi-262238990536370",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 5001,
+			"usedUnitContainer": [
+				{
+					"localSequenceNumber": 0,
+					"serviceId": -1,
+					"time": 59
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-07-31T20:40:10Z",
+	"duration": 0,
+	"recordSequenceNumber": 2,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "e2a2fb54-021c-499e-aa6a-80d931091f09::43613",
+	"recordExtensions": {
+		"transactionType": "RELEASE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "1u1"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "915023255788",
+			"type": "Postpaid",
+			"state": "Active",
+			"msisdn": "4915025255787",
+			"imsi": "262238990536370",
+			"subCosID": "PostPaidCOS",
+			"tariffPlan": "444bc3af5f9746f8bd1eedae28042023",
+			"subscriberId": "00000011-0000-4000-8000-915023255788",
+			"taxExemption": false,
+			"btpExpireTime": "2023-08-14T21:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "444bc3af5f9746f8bd1eedae28042023",
+					"productId": "444bc3af5f9746f8bd1eedae28042023_a8bdf9ba9a39367da8141c8a8a8ff700",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-07-31T20:40:10Z",
+					"additionalParam": {
+						"selectedAttributeList": {
+							"INTL_USAGE_ZONE": "Worldzone_10",
+							"ROAMING_USAGE_ZONE": "Worldzone_1"
+						}
+					}
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91002_CC_99cpm",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 4611686018427387904,
+									"rate": 80000000,
+									"ratedUnit": "MIN",
+									"unitSize": 76861433640456465
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "TAX19",
+							"ratingType": "TELESCOPIC",
+							"taxAmount": 500000000,
+							"premiumRateType": "Connection"
+						}
+					],
+					"discountProfile": {
+						"discountProfileId": "Days_Level_Perc_voice",
+						"discountProfileVer": "18",
+						"discountAmount": 40000000
+					},
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 1000000000,
+							"newBalance": 89723732550000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-05-10T06:12:06Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "444bc3af5f9746f8bd1eedae28042023",
+					"productId": "444bc3af5f9746f8bd1eedae28042023_a8bdf9ba9a39367da8141c8a8a8ff700",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-07-31T20:40:10Z",
+					"additionalParam": {
+						"selectedAttributeList": {
+							"INTL_USAGE_ZONE": "Worldzone_10",
+							"ROAMING_USAGE_ZONE": "Worldzone_1"
+						}
+					}
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91002_NUC_45cpm",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 4611686018427387904,
+									"rate": 80000000,
+									"ratedUnit": "MIN",
+									"unitSize": 76861433640456465
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "TAX19",
+							"ratingType": "TELESCOPIC",
+							"taxAmount": 500000000,
+							"premiumRateType": "NetworkUsage"
+						}
+					],
+					"discountProfile": {
+						"discountProfileId": "Days_Level_Perc_voice",
+						"discountProfileVer": "18",
+						"discountAmount": 40000000
+					},
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 1000000000,
+							"newBalance": 89723732550000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-05-10T06:12:06Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "444bc3af5f9746f8bd1eedae28042023",
+					"productId": "444bc3af5f9746f8bd1eedae28042023_a8bdf9ba9a39367da8141c8a8a8ff700",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-08-04T21:59:59Z",
+					"reservationTime": "2023-07-31T20:40:10Z",
+					"balanceType": "VOICE",
+					"additionalParam": {
+						"selectedAttributeList": {
+							"INTL_USAGE_ZONE": "Worldzone_10",
+							"ROAMING_USAGE_ZONE": "Worldzone_1"
+						}
+					}
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "RP-VOICE_1",
+							"rateProfileVer": "6",
+							"rates": [
+								{
+									"low": 0,
+									"high": 4611686018427387904,
+									"rate": 500000000,
+									"ratedUnit": "MIN",
+									"unitSize": 1
+								}
+							],
+							"lastAccumRatedUsage": 840,
+							"taxId": "Tax20",
+							"ratingType": "TIERED",
+							"taxAmount": 500000000,
+							"tierIndex": 1
+						}
+					],
+					"discountProfile": {
+						"discountProfileId": "Days_Level_Perc_voice",
+						"discountProfileVer": "18",
+						"discountAmount": 250000000
+					},
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 1000000000,
+							"newBalance": 89723432550000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-05-10T06:12:06Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					],
+					"ratedUsage": 60
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_INTERNATIONAL",
+			"roamType": "RT_INTERNATIONAL",
+			"networkFlag": "NF_OFFNET",
+			"callLeg": "CL_MO",
+			"forwardedFlag": "FL_NON_FORWARDED",
+			"calledPartyTerminalType": "CPTT_MOBILE",
+			"subServiceType": "VOICE-MO-INTERNATIONAL-ROAMING",
+			"visitedMCCMNC": "204040",
+			"visitedCountryCode": "31",
+			"destinationCountryCode": "30",
+			"roamUsageZone": [
+				"EU-Zone1-ROAM",
+				"Worldzone_1"
+			],
+			"intlUsageZone": [
+				"EU",
+				"EU_SMS",
+				"Worldzone_10"
+			],
+			"ratType": "4G"
+		}
+	},
+	"userEquipmentInfo": "imeisv-38363937303630353231313630343046",
+	"imsInfo": {
+		"roleofNode": 0,
+		"callingPartyAddress": [
+			"sip:+4915025255787@ims.mnc023.mcc262.3gppnetwork.org",
+			"tel:+4915025255787"
+		],
+		"calledPartyAddress": "sip:+3015025262025@ims.mnc01.mcc202.3gppnetwork.org",
+		"iMSChargingIdentifier": "0.614.8-1663680778.8010011001",
+		"accessNetworkInformation": [
+			"3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=20404006502CB001"
+		],
+		"iMSVisitedNetworkIdentifier": "ims.mnc04.mcc204.3gppnetwork.org",
+		"userSessionID": "2EF42D0B6A3D-58e-ab0f700-36-62debb19-35800",
+		"nodeFunctionality": 6,
+		"sDPMediaComponent": [
+			{
+				"sDPMediaName": "m=audio 17498 RTP/AVP 104 102 96 97",
+				"sDPMediaDescription": [
+					"a=rtpmap:104 AMR-WB/16000/1"
+				],
+				"sDPType": 0
+			}
+		]
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "seagull-host.mnc023.mcc262.3gppnetwork.org",
+	"originRealm": "seagull.mnc023.mcc262.3gppnetwork.org",
+	"terminationCause": "NONE",
+	"cDCIdentifier": "SITE1",
+	"anncInfo": {}
+}

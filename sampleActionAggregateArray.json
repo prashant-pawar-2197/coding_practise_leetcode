@@ -1,0 +1,12 @@
+{
+    "listOfArray" : [
+        {
+            "source" : "pgwRecord_listOfServiceData_$i_datavolumeFBCDownlink",
+            "destination" : "pgwRecord_datavolumeFBCDownlink"
+        },
+        {
+            "source" : "pgwRecord_listOfServiceData_$i_datavolumeFBCUplink",
+            "destination" : "pgwRecord_datavolumeFBCUplink"
+        }
+    ]
+}

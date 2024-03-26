@@ -1,0 +1,83 @@
+{
+	"recordType": "MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "prashantpawar",
+	"subscriberIdentifier": "imsi-262238990536370",
+	"recordOpeningTime": "2023-07-31T20:40:10Z",
+	"duration": 0,
+	"recordSequenceNumber": 0,
+	"causeForRecordClosing": "PartialCDRSessionEstablished",
+	"localRecordSequenceNumber": "e2a2fb54-021c-499e-aa6a-80d931091f09::43607",
+	"recordExtensions": {
+		"transactionType": "CREATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000333",
+			"spName": "1u1"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "915023255788",
+			"type": "Prepaid",
+			"state": "Active",
+			"msisdn": "4915025255787",
+			"imsi": "262238990536370",
+			"subCosID": "PostPaidCOS",
+			"tariffPlan": "444bc3af5f9746f8bd1eedae28042023",
+			"subscriberId": "00000011-0000-4000-8000-915023255788",
+			"taxExemption": false,
+			"btpExpireTime": "2023-08-14T21:59:59Z"
+		},
+		"extChargingInformation": {
+			"callDestinationType": "CDT_INTERNATIONAL",
+			"roamType": "RT_INTERNATIONAL",
+			"networkFlag": "NF_OFFNET",
+			"callLeg": "CL_MO",
+			"forwardedFlag": "FL_NON_FORWARDED",
+			"calledPartyTerminalType": "CPTT_MOBILE",
+			"subServiceType": "VOICE-MO-INTERNATIONAL-ROAMING",
+			"visitedMCCMNC": "204040",
+			"visitedCountryCode": "31",
+			"destinationCountryCode": "30",
+			"roamUsageZone": [
+				"EU-Zone1-ROAM",
+				"Worldzone_1"
+			],
+			"intlUsageZone": [
+				"EU",
+				"EU_SMS",
+				"Worldzone_10"
+			],
+			"ratType": "4G"
+		}
+	},
+	"userEquipmentInfo": "imeisv-38363937303630353231313630343046",
+	"imsInfo": {
+		"roleofNode": 0,
+		"callingPartyAddress": [
+			"sip:+4915025255787@ims.mnc023.mcc262.3gppnetwork.org",
+			"tel:+4915025255787"
+		],
+		"calledPartyAddress": "sip:+3015025262025@ims.mnc01.mcc202.3gppnetwork.org",
+		"iMSChargingIdentifier": "0.614.8-1663680778.8010011001",
+		"accessNetworkInformation": [
+			"3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=20404006502CB001"
+		],
+		"iMSVisitedNetworkIdentifier": "ims.mnc04.mcc368.3gppnetwork.org",
+		"userSessionID": "2EF42D0B6A3D-58e-ab0f700-36-62debb19-35800",
+		"nodeFunctionality": 6,
+		"sDPMediaComponent": [
+			{
+				"sDPMediaName": "m=audio 17498 RTP/AVP 104 102 96 97",
+				"sDPMediaDescription": [
+					"a=rtpmap:104 AMR-WB/16000/1"
+				],
+				"sDPType": 0
+			}
+		]
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "seagull-host.mnc023.mcc262.3gppnetwork.org",
+	"originRealm": "seagull.mnc023.mcc262.3ppnetwork.org",
+	"cDCIdentifier": "SITE1",
+	"anncInfo": {}
+}

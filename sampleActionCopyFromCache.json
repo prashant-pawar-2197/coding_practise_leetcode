@@ -1,0 +1,39 @@
+{
+	"sessionKey" : "sessionKey",
+    "rgKey" : "rgKey",
+    "fallbackType" : "RG->SESSION_RG->SESSION",
+    "source": [
+        "initialDiscountProfileID",
+        "initialFirstPartyZone",
+        "initialSecondPartyZone",
+        "initialPortingIdentifier",
+        "initialPai",
+        "initialProduct",
+        "initialRateProfile",
+        "initialPricePlanID",
+        "initialUsedBudgetIdentifier",
+        "initialPackage",
+        "initialNetworkType",
+        "initialGateway",
+        "initialGroupID",
+        "initialGroupType",
+        "initialLocation"
+    ],
+    "destination": [
+        "discountProfileID2",
+        "firstPartyZone2",
+        "secondPartyZone2",
+        "portingIdentifier2",
+        "pai2",
+        "product2",
+        "rateProfile2",
+        "pricePlanID2",
+        "usedBudgetIdentifier2",
+        "package2",
+        "networkType2",
+        "gateway2",
+        "groupID2",
+        "groupType2",
+        "location2"
+    ]
+}

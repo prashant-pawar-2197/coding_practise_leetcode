@@ -1,0 +1,18 @@
+{
+    "arrayNameList": [
+        {
+            "arrayName": "information_walletChangeDetails"
+        },
+        {
+            "arrayName": "information_subscriptionDetails"
+        }
+    ],
+    "msgInterface": {
+        "outInterface": "KAFKA",
+        "kafka": {
+            "topicName": "CGFM_LOADER_PROCESSOR"
+        }
+    },
+    "condition": "(information_walletChangeDetails_subscriptionId == value(information_subscriptionDetails_subscriptionId) && information_walletChangeDetails_instanceID == value(information_subscriptionDetails_instanceID)) or (information_walletChangeDetails_feeType == \"Recharge\" && information_subscriptionDetails_subscriptionType == \"BTP\" && header_subscriberInfo_subscriberType == \"Prepaid\")",
+    "writeToOutInterface": true
+}

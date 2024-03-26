@@ -1,0 +1,34 @@
+{
+    "subDocKey": "SessionInfo",
+    "sessionDocKeySourceFields": [
+        {
+            "source": "SessionKey",
+            "keyType": "Level1"
+        },
+        {
+            "source": "RGKey",
+            "keyType": "Level1"
+        },
+        {
+            "source": "Level2CdrKey",
+            "keyType": "Level2"
+        }
+    ],
+    "sessionDocKeysDestinationSubDocKey": "SessionKeys",
+    "listOfInitialValueFields": [
+        {
+            "source": "CGFM_CDC_ID",
+            "destination": "initialCdcID"
+        }
+    ],
+    "listOfLatestValueFields": [
+        {
+            "source": "CGFM_CDC_ID",
+            "destination": "currentCdcID"
+        },
+        {
+            "source": "recordSequenceNumber",
+            "destination": "lastProcessedRecSeqNum"
+        }
+    ]
+}

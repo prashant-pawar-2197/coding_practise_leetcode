@@ -1,0 +1,180 @@
+{
+	"recordType": "CHF-CDR",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "4f97f746e3ad556259c15e4a83fff854",
+	"subscriberIdentifier": "imsi-262238999990604",
+	"nfConsumerInformation": {
+		"networkFunctionality": "SMF",
+		"networkFunctionName": "36a645d0-6f86-4bff-8643-5d1390bafb24",
+		"networkFunctionPLMNIdentifier": {
+			"mcc": "262",
+			"mnc": "23"
+		}
+	},
+	"triggers": [
+		{
+			"triggerCategory": "IMMEDIATE_REPORT",
+			"triggerType": "FINAL"
+		}
+	],
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 2,
+			"usedUnitContainer": [
+				{
+					"localSequenceNumber": 5,
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"triggerTimestamp": "2023-03-07T03:34:40.34Z",
+					"triggers": [
+						{
+							"triggerCategory": "IMMEDIATE_REPORT",
+							"triggerType": "FINAL"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ratingGroup": 1,
+			"usedUnitContainer": [
+				{
+					"downlinkVolume": 2707,
+					"localSequenceNumber": 6,
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"totalVolume": 6133,
+					"triggerTimestamp": "2023-03-07T03:34:40.34Z",
+					"triggers": [
+						{
+							"triggerCategory": "IMMEDIATE_REPORT",
+							"triggerType": "FINAL"
+						}
+					],
+					"uplinkVolume": 3426
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-03-07T04:11:40.34Z",
+	"duration": 181,
+	"recordSequenceNumber": 195825389,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "59475965-2886-47e9-950a-7450d3b19a9c::2825795",
+	"recordExtensions": {
+		"transactionType": "RELEASE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "1u1"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "1234990615",
+			"type": "Prepaid",
+			"state": "Active",
+			"msisdn": "4915025246211",
+			"imsi": "262238999990604",
+			"subCosID": "PrePaidCOS",
+			"tariffPlan": "8fd11467bcfd437d97226adbd87d2649",
+			"subscriberId": "00000011-0000-4000-8000-777003108224",
+			"taxExemption": true,
+			"btpExpireTime": "2023-07-31T21:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"ratingGroup": 1,
+					"localSequenceNumber": 6,
+					"adjustedUnitFromExtChargeAmt": 6133
+				}
+			},
+			{
+				"debitCash": {
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 0,
+							"newBalance": 9704637000000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2022-07-04T10:12:13Z",
+							"effectiveExpiryDate": "2030-12-28T10:12:13Z"
+						}
+					]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"roamType": "RT_NO_ROAM",
+			"subServiceType": "DATA-LOCAL",
+			"visitedMCCMNC": "26223",
+			"visitedCountryCode": "49",
+			"ratType": "EUTRA"
+		}
+	},
+	"pduSessionChargingInformation": {
+		"chargingId": 317569,
+		"pduSessionInformation": {
+			"chargingCharacteristicsSelectionMode": "HOME_DEFAULT",
+			"dnnId": "internet.mnc023.mcc262.gprs",
+			"hPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"networkSlicingInfo": {
+				"sNSSAI": {
+					"sd": "000000",
+					"sst": 1
+				}
+			},
+			"pduAddress": {
+				"iPv4dynamicAddressFlag": true,
+				"iPv6dynamicPrefixFlag": true,
+				"pduIPv4Address": "100.64.180.36",
+				"pduIPv6AddresswithPrefix": "2a00:fbc:14d0:5d8c::"
+			},
+			"pduSessionID": 1,
+			"pduType": "IPV4V6",
+			"ratType": "EUTRA",
+			"servingCNPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"startTime": "2023-03-07T03:26:05Z",
+			"subscribedQoSInformation": {
+				"5qi": 9,
+				"arp": {
+					"preemptCap": "NOT_PREEMPT",
+					"preemptVuln": "PREEMPTABLE",
+					"priorityLevel": 2
+				}
+			},
+			"subscribedSessionAMBR": {
+				"downlink": "4294967000 bps",
+				"uplink": "4294967000 bps"
+			}
+		},
+		"uetimeZone": "+00:00",
+		"userInformation": {
+			"servedGPSI": "msisdn-4915566010604",
+			"servedPEI": "imeisv-8697060521170600"
+		},
+		"userLocationinfo": {
+			"eutraLocation": {
+				"ecgi": {
+					"eutraCellId": "02DFA01",
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					}
+				},
+				"tai": {
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					},
+					"tac": "0065"
+				}
+			}
+		}
+	},
+	"resultCode": "SUCCESS",
+	"cDCIdentifier": "SITE1"
+}

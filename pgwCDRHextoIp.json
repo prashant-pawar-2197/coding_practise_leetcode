@@ -1,0 +1,22 @@
+{
+    "recordSequenceType": "1",
+    "recordClosingTime": "20200322085500",
+    "pgwRecord_recordOpeningTime": "20200322085000",
+    "pgwRecord_recordType": "pGWRecord",
+    "pgwRecord_servedIMEISV": "05054201215170F0",
+    "pgwRecord_servedIMSI": "405040888800001",
+    "pgwRecord_servedMSISDN": "191804006957",
+    "pgwRecord_duration": 60,
+    "pgwRecord_p-GWAddress_iPBinaryAddress_iPBinV4Address": "10.224.17.48",
+    "pgwRecord_datavolumeFBCDownlink": 4416,
+    "pgwRecord_datavolumeFBCUplink": 7264,
+    "pgwRecord_chargingID": 268435557,
+    "pgwRecord_dynamicAddressFlag": true,
+    "pgwRecord_timeUsage": 60,
+    "pgwRecord_mSTimeZone": "2101",
+    "pgwRecord_p-GWPLMNIdentifier": "405004",
+    "pgwRecord_recordSequenceNumber": 1,
+    "pgwRecord_servedPDPPDNAddress_iPAddress_iPBinaryAddress_iPBinV4Address": "a0e3bfde",
+    "pgwRecord_servingNodePLMNIdentifier": "40504"
+}
+

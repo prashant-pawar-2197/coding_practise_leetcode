@@ -1,0 +1,365 @@
+{
+	"recordType": "MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "FRN-16271-TMDEP-41595;1096298391;68092",
+	"subscriberIdentifier": "imsi-162710000000049",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 5001,
+			"usedUnitContainer": [
+				{
+					"localSequenceNumber": 0,
+					"serviceId": 1,
+					"time": 300,
+					"triggers": [
+						{
+							"triggerCategory": "",
+							"triggerType": "QUOTA_THRESHOLD"
+						}
+					]
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-04-27T07:19:28Z",
+	"duration": 301,
+    "basicService": "Voice",
+	"recordSequenceNumber": 2,
+	"causeForRecordClosing": "PartialCDRTimeLimit",
+	"localRecordSequenceNumber": "b8e3067d-1f95-4b8f-8fe6-20d056c9bc66::119",
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "T-Mobile"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "0843634681",
+			"type": "Postpaid",
+			"state": "ACTIVE",
+			"msisdn": "1627100049",
+			"imsi": "162710000000049",
+			"subCosID": "PostpaidBaseClass",
+			"tariffPlan": "PKGVOICE01",
+			"subscriberId": "123e4567-e89b-12d3-a456-1627100049",
+			"taxExemption": false,
+			"btpExpireTime": "2023-05-27T23:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "PKGVOICE02",
+					"productId": "PKGVOICE02_PRD0000001",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"callingCUGId": [
+						"string"
+					],
+					"reservationTime": "2023-04-27T07:14:27Z"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91001_CC20C_Tax_30PER",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 3,
+									"rate": 20,
+									"ratedUnit": "SEC",
+									"unitSize": 30
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "Tax_30PER",
+							"taxAmount": 600000000,
+							"premiumRateType": "Connection"
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 2600000000,
+							"newBalance": 997400000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-03-27T07:13:58Z",
+							"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+						}
+					]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGVOICE02",
+					"productId": "PKGVOICE02_PRD0000001",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 60,
+					"defaultPulseUnit": "SEC",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-05-27T23:59:59Z",
+					"callingCUGId": [
+						"string"
+					],
+					"reservationTime": "2023-04-27T07:14:27Z",
+					"balanceType": "VOICE"
+				},
+				"debitAllowance": {
+					"debitAmount": 300,
+					"newBalance": 0,
+					"ratedUsageUnit": "SEC"
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGVOICE02",
+					"productId": "PKGVOICE02_PRD0000001",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"callingCUGId": [
+						"string"
+					],
+					"reservationTime": "2023-04-27T07:14:27Z"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91002_CC20C_Tax_30PER",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 3,
+									"rate": 20,
+									"ratedUnit": "SEC",
+									"unitSize": 30
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "Tax_30PER",
+							"taxAmount": 600000000,
+							"premiumRateType": "Connection"
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 2600000000,
+							"newBalance": 997400000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-03-27T07:13:58Z",
+							"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+						}
+					]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGVOICE02",
+					"productId": "PKGVOICE02_PRD0000001",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"callingCUGId": [
+						"string"
+					],
+					"reservationTime": "2023-04-27T07:14:27Z"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91002_NUCVOICE",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 4,
+									"high": 9223372036854775807,
+									"rate": 2,
+									"ratedUnit": "SEC",
+									"unitSize": 140
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "Tax_15PER",
+							"ratingType": "TELESCOPIC",
+							"taxAmount": 2000000000,
+							"premiumRateType": "NetworkUsage"
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 6000000000,
+							"newBalance": 99680000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-03-27T07:13:58Z",
+							"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+						}
+					]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGVOICE02",
+					"productId": "PKGVOICE02_PRD0000001",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-04-27T07:14:27Z"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91003_FUPVOICE",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 3,
+									"rate": 2,
+									"ratedUnit": "SEC",
+									"unitSize": 90
+								},
+								{
+									"low": 4,
+									"high": 9223372036854775807,
+									"rate": 3,
+									"ratedUnit": "SEC",
+									"unitSize": 150
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "Tax_10PER",
+							"ratingType": "TELESCOPIC",
+							"taxAmount": 1000000000,
+							"premiumRateType": "FUP",
+							"maxAllowedFUP": {
+								"rate": 5,
+								"ratedUnit": 1,
+								"unitSize": 60
+							}
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 9000000000,
+							"newBalance": 99590000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-03-27T07:13:58Z",
+							"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+						}
+					]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_INTERNATIONAL",
+			"roamType": "RT_INTERNATIONAL",
+			"networkFlag": "NF_ONNET",
+			"callLeg": "CL_MO",
+			"forwardedFlag": "FL_NON_FORWARDED",
+			"calledPartyTerminalType": "CPTT_FIXED_LINE",
+			"subServiceType": "MO-LOCAL"
+		}
+	},
+	"userEquipmentInfo": "imeisv-3333333533383335333033353330333833303330333233303332333133303436",
+	"imsInfo": {
+		"roleofNode": 0,
+		"callingPartyAddress": [
+			"sip:1627100049@mavenir.com"
+		],
+		"calledPartyAddress": "sip:499144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;rn=D409",
+		"interOperatorIdentifier": [
+			{
+				"originatingIOI": "32345"
+			}
+		],
+		"iMSChargingIdentifier": "ocatf000.sip.lab.t-mobile.com-1521-66590-266619",
+		"accessNetworkInformation": [
+			"3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=26322138f0080801"
+		],
+		"instanceID": "urn:gsma:imei:35850508-002021-0",
+		"numberPortabilityRoutingInformation": "D409",
+		"eventType": {
+			"sipMethod": "INVITE"
+		},
+		"userSessionID": "000050D7F79C-3288-1689e700-48-5aa9a25e-59ddf",
+		"nodeFunctionality": 6,
+		"requestedPartyAddress": [
+			"sip:499144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;rn=D009"
+		],
+		"timeStamps": {
+			"sIPRequestTimeStamp": "2036-02-07T06:28:17Z",
+			"sIPRequestTimeStampFraction": 404
+		},
+		"sDPSessionDescription": [
+			"v=0",
+			"o=SAMSUNG-IMS-UE 1521066588745339 0 IN IP4 10.169.60.36",
+			"s=SS VOIP",
+			"c=IN IP4 10.169.59.37",
+			"t=0 0"
+		],
+		"sDPMediaComponent": [
+			{
+				"sDPMediaName": "m=audio 39546 RTP/AVP 127 105",
+				"sDPMediaDescription": [
+					"a=rtpmap:127 EVS/16000",
+					"a=fmtp:127 br=5.9-13.2; bw=nb-swb; ch-aw-recv=2",
+					"a=rtpmap:105 telephone-event/16000",
+					"a=fmtp:105 0-15",
+					"a=ptime:20",
+					"a=maxptime:40",
+					"a=sendrecv",
+					"a=curr:qos local sendrecv",
+					"a=curr:qos remote sendrecv",
+					"a=des:qos mandatory local sendrecv",
+					"a=des:qos mandatory remote sendrecv",
+					"b=AS:30",
+					"b=RS:0",
+					"b=RR:0"
+				],
+				"mediaInitiatorFlag": 1,
+				"sDPType": 1
+			},
+			{
+				"sDPMediaName": "m=text 40144 RTP/AVP 112 111",
+				"sDPMediaDescription": [
+					"a=rtpmap:112 red/1000",
+					"a=fmtp:112 111/111/111",
+					"a=rtpmap:111 t140/1000",
+					"a=sendrecv",
+					"b=AS:3"
+				],
+				"mediaInitiatorFlag": 1,
+				"sDPType": 1
+			}
+		]
+	},
+	"mmtelInfo": {
+		"supplementaryService": [
+			{
+				"mMTelServiceType": 1,
+				"associatedPartyAddress": "sip:19144392273@msg.lab.t-mobile.com",
+				"serviceMode": 1,
+				"numberOfDiversions": 2,
+				"serviceId": "6163",
+				"changeTime": "2036-02-07T07:05:18Z",
+				"numberOfParticipants": 2
+			}
+		]
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "af1.mavenir.com",
+	"originRealm": "mavenir.com",
+	"cDCIdentifier": "SITE1"
+}

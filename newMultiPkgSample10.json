@@ -1,0 +1,189 @@
+{
+	"recordType": "CHF-CDR",
+	"basicService": "Data",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "970b8abdcfdaf2e257657fca2d17b1a4",
+	"subscriberIdentifier": "imsi-262231000001735",
+	"nfConsumerInformation": {
+		"networkFunctionality": "SMF",
+		"networkFunctionName": "18eaef34-53b7-11ea-8d77-2e728ce88125",
+		"networkFunctionPLMNIdentifier": {
+			"mcc": "262",
+			"mnc": "23"
+		}
+	},
+	"triggers": [
+		{
+			"triggerCategory": "IMMEDIATE_REPORT",
+			"triggerType": "QHT"
+		}
+	],
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 1,
+			"usedUnitContainer": [
+				{
+					"downlinkVolume": 30505,
+					"localSequenceNumber": 63,
+					"pDUContainerInformation": {
+						"rATType": "EUTRA",
+						"timeofFirstUsage": "2023-07-30T21:52:15Z",
+						"timeofLastUsage": "2023-07-31T00:03:13Z",
+						"uetimeZone": "+02:00+1"
+					},
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"totalVolume": 43137,
+					"triggerTimestamp": "2023-07-31T00:03:13.03Z",
+					"triggers": [
+						{
+							"triggerCategory": "IMMEDIATE_REPORT",
+							"triggerType": "QHT"
+						}
+					],
+					"uplinkVolume": 12632
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-07-31T00:03:13.03Z",
+	"duration": 8073,
+	"recordSequenceNumber": 1360023967,
+	"causeForRecordClosing": "PartialCDRTimeLimit",
+	"localRecordSequenceNumber": "67d7524a-78dc-4c13-a4f1-53236037073a::3381053",
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "1uand1"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "999999000201",
+			"type": "Postpaid",
+			"state": "Active",
+			"msisdn": "4915566203165",
+			"imsi": "262231000001735",
+			"subCosID": "PostPaidCOS",
+			"tariffPlan": "fe5dd422a04b42d493b6bf037e16a9e9",
+			"subscriberId": "00000011-0000-4000-8000-999999000201",
+			"taxExemption": false,
+			"btpExpireTime": "2023-07-31T21:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"ratingGroup": 1,
+					"localSequenceNumber": 63,
+					"adjustedUnitFromExtChargeAmt": 43137
+				}
+			},
+			{
+				"debitCash": {
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 0,
+							"newBalance": 100000000000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-03-31T17:48:29Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"roamType": "RT_NO_ROAM",
+			"visitedMCCMNC": "26223",
+			"ratType": "4G"
+		}
+	},
+	"pduSessionChargingInformation": {
+		"chargingId": 395540,
+		"pduSessionInformation": {
+			"authorizedQoSInformation": {
+				"5qi": 9,
+				"arp": {
+					"preemptCap": "MAY_PREEMPT",
+					"preemptVuln": "PREEMPTABLE",
+					"priorityLevel": 3
+				}
+			},
+			"authorizedSessionAMBR": {
+				"downlink": "4294967000 bps",
+				"uplink": "4294967000 bps"
+			},
+			"chargingCharacteristics": "0800",
+			"chargingCharacteristicsSelectionMode": "HOME_DEFAULT",
+			"dnnId": "fwaint.mnc023.mcc262.gprs",
+			"hPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"networkSlicingInfo": {
+				"sNSSAI": {
+					"sd": "000001",
+					"sst": 1
+				}
+			},
+			"pduAddress": {
+				"iPv4dynamicAddressFlag": true,
+				"iPv6dynamicPrefixFlag": true,
+				"pduIPv4Address": "100.66.137.29",
+				"pduIPv6AddresswithPrefix": "2a00:fbc:d280:8c3::"
+			},
+			"pduSessionID": 1,
+			"pduType": "IPV4V6",
+			"ratType": "EUTRA",
+			"servingCNPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"servingNetworkFunctionID": {
+				"servingNetworkFunctionInformation": {
+					"nFIPv4Address": "202.71.128.140",
+					"nodeFunctionality": "SGW"
+				}
+			},
+			"startTime": "2023-07-30T05:12:21Z",
+			"subscribedQoSInformation": {
+				"5qi": 9,
+				"arp": {
+					"preemptCap": "NOT_PREEMPT",
+					"preemptVuln": "PREEMPTABLE",
+					"priorityLevel": 2
+				}
+			},
+			"subscribedSessionAMBR": {
+				"downlink": "4294967000 bps",
+				"uplink": "4294967000 bps"
+			}
+		},
+		"uetimeZone": "+02:00+1",
+		"userInformation": {
+			"servedGPSI": "msisdn-4915566203165",
+			"servedPEI": "imeisv-8671970502463341"
+		},
+		"userLocationinfo": {
+			"eutraLocation": {
+				"ecgi": {
+					"eutraCellId": "205DB01",
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					}
+				},
+				"tai": {
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					},
+					"tac": "0B22"
+				}
+			}
+		}
+	},
+	"resultCode": "SUCCESS",
+	"cDCIdentifier": "SITE1",
+	"anncInfo": {}
+}

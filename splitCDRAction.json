@@ -1,0 +1,18 @@
+{
+    "SplitOnCdrFieldChange": {
+        "paramList": [
+            {
+                "fieldName": "networkType",
+                "isMandatory": false
+            },
+            {
+                "fieldName": "networkProvider",
+                "isMandatory": false
+            }
+        ],
+        "sctName": "SCT_LEVEL2_VOICE_AGGR",
+        "yesNoFields": [
+            "recordExtensions_chargeInformation_ratingIndication_changeInBTPCycle"
+        ]
+    }
+}

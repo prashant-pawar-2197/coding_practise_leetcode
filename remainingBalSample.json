@@ -1,0 +1,153 @@
+{
+	"recordType": "MMS-MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "dc01mavtas01diam02.1u1.de;1111111336;1",
+	"subscriberIdentifier": "nai-4915025249330@dummy.com",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 3,
+			"usedUnitContainer": [
+				{
+					"eventTimeStamps": [
+						"2023-02-20T15:26:00Z"
+					],
+					"localSequenceNumber": 0,
+					"serviceSpecificUnits": 1
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-02-20T15:26:00Z",
+	"duration": 0,
+	"recordSequenceNumber": 0,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "2dadecf2-e29b-4b97-933e-e66efc764a85::4025423",
+	"recordExtensions": {
+		"transactionType": "EVENT",
+		"requestType": "ONLINE_EVENT",
+		"spInformation": {
+			"spId": "00000333",
+			"spName": "drillisch"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "915025249330",
+			"type": "Prepaid",
+			"state": "Active",
+			"msisdn": "4915025249330",
+			"imsi": "262238990528154",
+			"subCosID": "PrePaidCOS",
+			"tariffPlan": "e6a8003fe91745278ab17312ded57c75",
+			"subscriberId": "00000333-0000-4000-8000-915025249330",
+			"taxExemption": false,
+			"btpExpireTime": "2023-02-28T22:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "e6a8003fe91745278ab17312ded57c75",
+					"productId": "e6a8003fe91745278ab17312ded57c75_8ef6918c888a34b7ad2243f1fd8f4c16",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-02-28T22:59:59Z",
+					"reservationTime": "2023-02-20T15:26:00Z",
+					"balanceType": "MMS"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "MMS_More_Than_300KB",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 4611686018427387904,
+									"rate": 200000000,
+									"ratedUnit": "KB",
+									"unitSize": 300
+								}
+							],
+							"lastAccumRatedUsage": 900000,
+							"taxId": "Tax19",
+							"ratingType": "TIERED",
+							"taxAmount": 38000000,
+							"premiumRateType": "RP"
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000001",
+							"debitAmount": 10000,
+							"newBalance": 300000000000,
+							"balanceType": "PC",
+							"effectiveStartDate": "2023-01-18T12:20:33Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						},
+                        {
+							"balanceId": "BAL000000",
+							"debitAmount": 20000,
+							"newBalance": 61710950500,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-01-18T00:00:00Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					],
+					"ratedUsage": 300000
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_NATIONAL",
+			"roamType": "RT_NO_ROAM",
+			"networkFlag": "NF_ONNET",
+			"callLeg": "CL_MO",
+			"subServiceType": "MMS-MO-LOCAL",
+			"visitedMCCMNC": "26223",
+			"visitedCountryCode": "49",
+			"ratType": "5G"
+		}
+	},
+	"userEquipmentInfo": "imeisv-38363937303630353231313630343046",
+	"mmsInfo": {
+		"origAddress": {
+			"sMaddressData": "4915025249330",
+			"sMaddressDomain": {
+				"3GPPIMSIMCCMNC": "262238990528154",
+				"domainName": "mms.mnc023.mcc262.gprs"
+			},
+			"sMaddressType": "MSISDN"
+		},
+		"recipientAddress": [
+			{
+				"sMaddressData": "491502519616",
+				"sMaddressDomain": {
+					"3GPPIMSIMCCMNC": "262238990519616",
+					"domainName": "mms.mnc023.mcc262.gprs"
+				},
+				"sMaddressType": "MSISDN"
+			}
+		],
+		"submissionTime": "2023-01-16T13:49:00Z",
+		"messageID": "5555555767",
+		"mMContentType": {
+			"typeNumber": 16,
+			"additionalContentInformation": [
+				{
+					"typeNumber": 28
+				}
+			]
+		},
+		"priority": 1,
+		"messageType": 1,
+		"messageSize": 300001
+	},
+	"psInfo": {
+		"tgppSGSNMCCMNC": "26223",
+		"tgppRATTYPE": "NR"
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "seagull-host.mnc023.mcc262.3gppnetwork.org",
+	"originRealm": "seagull.mnc023.mcc262.3ppnetwork.org",
+	"cDCIdentifier": "SITE1"
+}

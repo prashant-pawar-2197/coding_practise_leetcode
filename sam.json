@@ -1,0 +1,156 @@
+{
+    "recordType": "MOBILE-ORIGINATED",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "990825",
+    "subscriberIdentifier": "imsi-262238990535815",
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 5001,
+            "usedUnitContainer": [
+                {
+                    "eventTimeStamps": [
+                        "2023-08-22T08:25:00+02:00"
+                    ],
+                    "localSequenceNumber": 0,
+                    "time": 8
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "2023-08-22T08:28:18+02:00",
+    "duration": 0,
+    "recordSequenceNumber": "576817867ftvrfbyh878y893_1",
+    "causeForRecordClosing": "NormalRelease",
+    "localRecordSequenceNumber": "70e79dec-e803-4d0e-b4cd-324495a049f5::22459",
+    "recordExtensions": {
+        "transactionType": "EVENT",
+        "requestType": "ONLINE_EVENT",
+        "spInformation": {
+            "spId": "00000011",
+            "spName": "1u1"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "915025255225",
+            "type": "Postpaid",
+            "state": "Active",
+            "msisdn": "4915025255225",
+            "imsi": "262238990535815",
+            "subCosID": "PostPaidCOS",
+            "tariffPlan": "8fd11467bcfd437d97226adbd87d2649",
+            "subscriberId": "00000011-0000-4000-8000-915025255225",
+            "taxExemption": false,
+            "btpExpireTime": "2023-08-22T21:59:59Z",
+            "imsiSiteId": "SITE2"
+        },
+        "chargeInformation": [
+            {
+                "ratingIndication": {
+                    "packageId": "227ce1ebd0434180aca8229c0d903852",
+                    "productId": "227ce1ebd0434180aca8229c0d903852_a8bdf9ba9a39367da8141c8a8a8ff700",
+                    "ratingGroup": 5001,
+                    "packageInstanceId": "5",
+                    "productInstanceId": "5",
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "SEC",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2023-08-22T21:59:59Z",
+                    "reservationTime": "2023-08-22T08:28:18+02:00",
+                    "balanceType": "VOICE"
+                },
+                "debitAllowance": {
+                    "debitAmount": 8,
+                    "newBalance": 562,
+                    "ratedUsageUnit": "SEC",
+                    "lastAccumRatedQuotaUsage": 0
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "227ce1ebd0434180aca8229c0d903852",
+                    "productId": "227ce1ebd0434180aca8229c0d903852_a8bdf9ba9a39367da8141c8a8a8ff700",
+                    "ratingGroup": 5001,
+                    "packageInstanceId": "5",
+                    "productInstanceId": "5",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2023-08-22T21:59:59Z",
+                    "reservationTime": "2023-08-22T08:28:18+02:00"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "91003_fup_Voice",
+                            "rateProfileVer": "8",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4611686018427387904,
+                                    "rate": 15000000,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60
+                                }
+                            ],
+                            "lastAccumRatedUsage": 0,
+                            "taxId": "TAX19",
+                            "ratingType": "TELESCOPIC",
+                            "taxAmount": 2850000,
+                            "premiumRateType": "FUP",
+                            "maxAllowedFUP": {
+                                "rate": 2000000000,
+                                "ratedUnit": 2,
+                                "unitSize": 1
+                            }
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 17850000,
+                            "newBalance": 99928600000,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2023-02-20T10:27:29Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        }
+                    ],
+                    "ratedUsage": 60
+                }
+            }
+        ],
+        "extChargingInformation": {
+            "callDestinationType": "CDT_INTERNATIONAL",
+            "roamType": "RT_INTERNATIONAL",
+            "networkFlag": "NF_OFFNET",
+            "callLeg": "CL_MO",
+            "forwardedFlag": "FL_NON_FORWARDED",
+            "calledPartyTerminalType": "CPTT_FIXED_LINE",
+            "subServiceType": "VOICE-MO-INTERNATIONAL-ROAMING",
+            "destinationCountryCode": "49",
+            "intlUsageZone": [
+                "EU_SMS"
+            ],
+            "extendedRgDetails": [
+                {
+                    "ratingGroup": 5001
+                }
+            ]
+        }
+    },
+    "userEquipmentInfo": "mac-35870905407351",
+    "imsInfo": {
+        "roleofNode": 0,
+        "callingPartyAddress": [
+            "4915025255225"
+        ],
+        "calledPartyAddress": "4915566582441",
+        "accessNetworkInformation": [
+            ";=11070139850"
+        ],
+        "nodeFunctionality": 0,
+        "requestedPartyAddress": [
+            "4915566582441"
+        ]
+    },
+    "resultCode": "SUCCESS",
+    "cDCIdentifier": "SITE1",
+    "offlineRating": true,
+    "isPartialUnitGranted": true
+}

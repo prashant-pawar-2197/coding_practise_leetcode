@@ -1,0 +1,20 @@
+{
+    "FunctionName": "MultiPackageAggregation",
+    "Lookup": {
+        "debug": true,
+        "AggregateRateProfileArray": true,
+        "AggregateTaxAmt": true,
+        "AggregateBalanceChangeInfoArray": true,
+        "AggregateBalChangeDebitBal": true,
+        "AggregateDiscount": true,
+        "AggregateRateUsage": true,
+        "AddMultiPkgIndicator": true,
+        "RateProfileIsArray": true,
+        "AggregateIgnorePkgProductChange": false
+    },
+    "btpFlagEnabled": true,
+    "multiPackageConfig": {
+        "timeFormat": "%YEAR%-%month_nz%-%date_z%T%hour_24%:%minute_z%:%second_z%Z",
+        "splitOnPulseChange": true
+    }
+}

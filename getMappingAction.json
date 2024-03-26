@@ -1,0 +1,16 @@
+{
+    "serviceType": "sms",
+    "source_1": [
+        "ccCorrelationID",
+        "sMSChargingInformation_originatorInfo_originatorReceivedAddress_sMaddressData",
+        "sMSChargingInformation_recipientInfo_0_recipientOtherAddress_sMaddressData"
+    ],
+    "source_2": [
+        "mmsInfo_messageID"
+    ],
+    "destination": [
+        "networkSessionID",
+        "networkSessionID_Input"
+    ],
+    "saveFlag": false
+}

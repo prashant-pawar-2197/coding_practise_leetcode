@@ -1,0 +1,189 @@
+{
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"chargeInformation": [
+			{
+				"debitAllowance": {
+					"newBalance": 9800000000,
+					"debitAmount": 200000000,
+					"ratedUsageUnit": "BYTES",
+					"lastAccumRatedQuotaUsage": 0
+				},
+				"ratingIndication": {
+					"effectiveExpiryDate": "2024-02-15T07:14:27Z",
+					"productId": "PKGADDON1_PRD0000001",
+					"packageInstanceId": "1",
+					"reservationTime": "2024-02-15T07:14:01Z",
+					"packageId": "PKGADDON1",
+					"productInstanceId": "1",
+					"recordOpeningTime": "2024-02-15T07:14:40.455Z",
+					"packageType": "AddOn",
+					"localSequenceNumber": 1,
+					"bTPExpireTime": "2024-02-15T07:14:23Z",
+					"defaultPulse": 1,
+					"balanceType": "DATA",
+					"ratingGroup": 1001,
+					"tariffPlan": "PKG0000001",
+					"causeForRecordClosing": "PartialCDRTimeTariffChange",
+					"defaultPulseUnit": "BYTES",
+					"adjustedUnitFromExtChargeAmt": 500
+				}
+			},
+			{
+				"debitAllowance": {
+					"newBalance": 9000000000,
+					"debitAmount": 800000000,
+					"ratedUsageUnit": "BYTES",
+					"lastAccumRatedQuotaUsage": 200000000
+				},
+				"ratingIndication": {
+					"effectiveExpiryDate": "2024-02-15T07:14:27Z",
+					"productId": "PKGADDON1_PRD0000002",
+					"packageInstanceId": "1",
+					"packageId": "PKGADDON1",
+					"productInstanceId": "1",
+					"recordOpeningTime": "2024-02-15T07:14:42.455Z",
+					"packageType": "AddOn",
+					"localSequenceNumber": 2,
+					"bTPExpireTime": "2024-02-15T07:14:23Z",
+					"defaultPulse": 1,
+					"balanceType": "DATA",
+					"ratingGroup": 1001,
+					"tariffPlan": "PKG0000001",
+					"causeForRecordClosing": "PartialCDRTimeTariffChange",
+					"defaultPulseUnit": "BYTES"
+				}
+			}
+		],
+		"subscriberInformation": {
+			"billingAcctId": "0843634681",
+			"imsiSiteId": "SITE1",
+			"tariffPlan": "PKG0000001",
+			"taxExemption": false,
+			"subscriberId": "123e4567-e89b-12d3-a456-1416900149",
+			"state": "ACTIVE",
+			"imsi": "141690000000149",
+			"type": "Prepaid",
+			"msisdn": "141690000149",
+			"btpExpireTime": "2024-02-15T07:14:23Z",
+			"subCosID": "PrepaidBaseClass"
+		},
+		"requestType": "ONLINE_SESSION",
+		"extChargingInformation": {
+			"pduSessionChargingInformation": {
+				"pduSessionInformation": {
+					"ratType": "NR",
+					"dnnId": "apn1.mnc005.mcc405.gprs"
+				},
+				"userLocationinfo": {
+					"nrLocation": {
+						"ncgi": {
+							"plmnId": {
+								"mnc": "05",
+								"mcc": "405"
+							},
+							"nrCellId": "0499602D30"
+						},
+						"tai": {
+							"tac": "000065",
+							"plmnId": {
+								"mnc": "05",
+								"mcc": "405"
+							}
+						}
+					}
+				}
+			},
+			"ratType": "NR"
+		},
+		"spInformation": {
+			"spName": "T-Mobile",
+			"spId": "SPCCS14169"
+		}
+	},
+	"recordSequenceNumber": 1241207,
+	"recordType": "CHF-CDR",
+	"resultCode": "SUCCESS",
+	"localRecordSequenceNumber": "d052a055-c0d9-498d-a9dc-078d1482a8db::24",
+	"nfConsumerInformation": {
+		"networkFunctionality": "SMF",
+		"networkFunctionName": "smfCtf"
+	},
+	"recordOpeningTime": "2024-02-15T07:14:42.455Z",
+	"subscriberIdentifier": "imsi-141690000000149",
+	"duration": 41,
+	"pduSessionChargingInformation": {
+		"pduSessionInformation": {
+			"subscribedSessionAMBR": {
+				"downlink": "1000000",
+				"uplink": "1000000"
+			},
+			"pduAddress": {
+				"pduIPv4Address": "10.31.35.242"
+			},
+			"authorizedSessionAMBR": {
+				"downlink": "8000000",
+				"uplink": "8000000"
+			},
+			"networkSlicingInfo": {
+				"sNSSAI": {
+					"sd": "000001",
+					"sst": 1
+				}
+			},
+			"ratType": "NR",
+			"dnnId": "apn1.mnc005.mcc405.gprs",
+			"pduSessionID": 1,
+			"pduType": "IPV4"
+		},
+		"userLocationinfo": {
+			"nrLocation": {
+				"ncgi": {
+					"plmnId": {
+						"mnc": "05",
+						"mcc": "405"
+					},
+					"nrCellId": "0499602D30"
+				},
+				"tai": {
+					"tac": "000065",
+					"plmnId": {
+						"mnc": "05",
+						"mcc": "405"
+					}
+				}
+			}
+		}
+	},
+	"causeForRecordClosing": "PartialCDRTimeLimit",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 1001,
+			"usedUnitContainer": [
+				{
+					"totalVolume": 1000000500,
+                    "downlinkVolume": 500000500,
+                    "uplinkVolume" : 500000000,
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"triggers": [
+						{
+							"triggerType": "TARIFF_TIME_CHANGE",
+							"triggerCategory": "IMMEDIATE_REPORT"
+						}
+					],
+					"localSequenceNumber": 1,
+					"triggerTimestamp": "2024-02-15T07:14:40.455Z"
+				}
+			],
+			"requestedUnit": {
+				"totalVolume": 1000000000,
+				"downlinkVolume": 500000,
+				"uplinkVolume": 500000
+			}
+		}
+	],
+	"cDCIdentifier": "SITE1",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "72ae806510aadc5b91170a9cb09fe5d1",
+    "basicService": "Data"
+}

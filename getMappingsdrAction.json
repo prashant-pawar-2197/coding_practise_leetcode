@@ -1,0 +1,17 @@
+{
+    "serviceType": "sms",
+    "source_1": [
+        "MSG_PARENT_ID",
+        "A_ADDR_DIGITS",
+        "B_ADDR_DIGITS"
+    ],
+    "source_2": [
+        "MSG_ID"
+    ],
+    "destination": [
+        "networkSessionID",
+        "networkSessionID_Input"
+    ],
+    "createDestinationFieldIfNotPresent": true,
+    "saveFlag": false
+}

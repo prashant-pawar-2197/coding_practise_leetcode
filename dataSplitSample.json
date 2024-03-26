@@ -1,0 +1,294 @@
+{
+	"recordType": "CHF-CDR",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "2cebe858a889c5358e00f7ed51343402",
+	"subscriberIdentifier": "imsi-262238999990502",
+	"nfConsumerInformation": {
+		"networkFunctionality": "SMF",
+		"networkFunctionName": "f0eaa8ab-659f-4c48-b467-b25ba037e67c",
+		"networkFunctionPLMNIdentifier": {
+			"mcc": "262",
+			"mnc": "23"
+		}
+	},
+	"triggers": [
+		{
+			"triggerCategory": "IMMEDIATE_REPORT",
+			"triggerType": "FINAL"
+		}
+	],
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 2,
+			"usedUnitContainer": [
+				{
+					"downlinkVolume": 624,
+					"localSequenceNumber": 2,
+					"pDUContainerInformation": {
+						"chargingRuleBaseName": "RB2",
+						"rATType": "EUTRA",
+						"timeofFirstUsage": "2023-08-18T10:12:15Z",
+						"timeofLastUsage": "2023-08-18T10:13:41Z",
+						"uetimeZone": "+02:00+1"
+					},
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"totalVolume": 1612,
+					"triggerTimestamp": "2023-08-18T10:13:41.13Z",
+					"triggers": [
+						{
+							"triggerCategory": "IMMEDIATE_REPORT",
+							"triggerType": "FINAL"
+						}
+					],
+					"uplinkVolume": 988
+				}
+			]
+		},
+		{
+			"ratingGroup": 1,
+			"usedUnitContainer": [
+				{
+					"downlinkVolume": 24129253,
+					"localSequenceNumber": 7,
+					"pDUContainerInformation": {
+						"chargingRuleBaseName": "RB2",
+						"rATType": "EUTRA",
+						"timeofFirstUsage": "2023-08-18T10:12:01Z",
+						"timeofLastUsage": "2023-08-18T10:13:41Z",
+						"uetimeZone": "+02:00+1"
+					},
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"totalVolume": 24187176,
+					"triggerTimestamp": "2023-08-18T10:13:41.13Z",
+					"triggers": [
+						{
+							"triggerCategory": "IMMEDIATE_REPORT",
+							"triggerType": "FINAL"
+						}
+					],
+					"uplinkVolume": 57923
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-08-18T10:13:41.13Z",
+	"duration": 89,
+	"recordSequenceNumber": 256846358,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "70e79dec-e803-4d0e-b4cd-324495a049f5::19511",
+	"recordExtensions": {
+		"transactionType": "RELEASE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "1u1"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "915566010502",
+			"type": "Postpaid",
+			"state": "Active",
+			"msisdn": "4915566010502",
+			"imsi": "262238999990502",
+			"subCosID": "PostPaidCOS",
+			"tariffPlan": "8fd11467bcfd437d97226adbd87d2649",
+			"subscriberId": "00000011-0000-4000-8000-915566010502",
+			"taxExemption": false,
+			"btpExpireTime": "2023-08-31T21:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "8fd11467bcfd437d97226adbd87d2649",
+					"productId": "8fd11467bcfd437d97226adbd87d2649_0bdf0866726433078f8cf1a29835031e",
+					"ratingGroup": 1,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 7,
+					"effectiveExpiryDate": "2023-08-31T21:59:59Z",
+					"slcStatus": "QOS_10000_50000_Kbps",
+					"reservationTime": "2023-08-18T10:11:35Z",
+					"balanceType": "DATA"
+				},
+				"debitAllowance": {
+					"debitAmount": 24187176,
+					"newBalance": 4611686018256398000,
+					"ratedUsageUnit": "BYTES",
+					"lastAccumRatedQuotaUsage": 1109790176
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "8fd11467bcfd437d97226adbd87d2649",
+					"productId": "8fd11467bcfd437d97226adbd87d2649_0bdf0866726433078f8cf1a29835031e",
+					"ratingGroup": 1,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 7,
+					"effectiveExpiryDate": "2023-08-31T21:59:59Z",
+					"slcStatus": "QOS_10000_50000_Kbps",
+					"reservationTime": "2023-08-18T10:11:35Z",
+					"balanceType": "DATA"
+				},
+				"debitCash": {
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 0,
+							"newBalance": 100000000000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-06-12T07:35:47Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "a4c8d9535bff4590b7d94222e2337240",
+					"productId": "a4c8d9535bff4590b7d94222e2337240_215ef4fe209e3fe59484801db263137c",
+					"ratingGroup": 2,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "9999-12-31T00:00:00Z",
+					"reservationTime": "2023-08-18T10:12:12.12Z"
+				},
+				"debitAllowance": {
+					"debitAmount": 1612,
+					"newBalance": 0,
+					"ratedUsageUnit": "BYTES",
+					"lastAccumRatedQuotaUsage": 0
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "a4c8d9535bff4590b7d94222e2337240",
+					"productId": "a4c8d9535bff4590b7d94222e2337240_215ef4fe209e3fe59484801db263137c",
+					"ratingGroup": 2,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "9999-12-31T00:00:00Z",
+					"reservationTime": "2023-08-18T10:12:12.12Z"
+				},
+				"debitCash": {
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 0,
+							"newBalance": 100000000000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-06-12T07:35:47Z",
+							"effectiveExpiryDate": "2099-01-01T00:00:00Z"
+						}
+					]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"roamType": "RT_INTERNATIONAL",
+			"subServiceType": "DATA-INTERNATIONAL-ROAMING",
+			"visitedMCCMNC": "26223",
+			"visitedCountryCode": "49",
+			"roamUsageZone": [
+				"Worldzone_1"
+			],
+			"ratType": "EUTRA"
+		}
+	},
+	"pduSessionChargingInformation": {
+		"chargingId": 44802,
+		"pduSessionInformation": {
+			"authorizedQoSInformation": {
+				"5qi": 9,
+				"arp": {
+					"preemptCap": "NOT_PREEMPT",
+					"preemptVuln": "PREEMPTABLE",
+					"priorityLevel": 2
+				}
+			},
+			"authorizedSessionAMBR": {
+				"downlink": "4294967000 bps",
+				"uplink": "4294967000 bps"
+			},
+			"chargingCharacteristics": "0800",
+			"chargingCharacteristicsSelectionMode": "HOME_DEFAULT",
+			"dnnId": "internet.mnc023.mcc262.gprs",
+			"hPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"networkSlicingInfo": {
+				"sNSSAI": {
+					"sd": "000000",
+					"sst": 1
+				}
+			},
+			"pduAddress": {
+				"iPv4dynamicAddressFlag": true,
+				"iPv6dynamicPrefixFlag": true,
+				"pduIPv4Address": "100.64.156.83",
+				"pduIPv6AddresswithPrefix": "2a00:fbc:14d0:c69::"
+			},
+			"pduSessionID": 1,
+			"pduType": "IPV4V6",
+			"ratType": "EUTRA",
+			"servingCNPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"servingNetworkFunctionID": {
+				"servingNetworkFunctionInformation": {
+					"nFIPv6Address": "2a00:fbc:1210:79bf:101:211:2:1",
+					"nFPLMNID": {
+						"mcc": "262",
+						"mnc": "23"
+					},
+					"nodeFunctionality": "SGW"
+				}
+			},
+			"startTime": "2023-08-18T10:07:12Z",
+			"subscribedQoSInformation": {
+				"5qi": 9,
+				"arp": {
+					"preemptCap": "NOT_PREEMPT",
+					"preemptVuln": "PREEMPTABLE",
+					"priorityLevel": 2
+				}
+			},
+			"subscribedSessionAMBR": {
+				"downlink": "4294967000 bps",
+				"uplink": "4294967000 bps"
+			}
+		},
+		"uetimeZone": "+02:00+1",
+		"userInformation": {
+			"servedGPSI": "msisdn-4915566010502",
+			"servedPEI": "imeisv-8658360538629279"
+		},
+		"userLocationinfo": {
+			"eutraLocation": {
+				"ecgi": {
+					"eutraCellId": "02CB101",
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					}
+				},
+				"tai": {
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					},
+					"tac": "0065"
+				}
+			}
+		}
+	},
+	"resultCode": "SUCCESS",
+	"cDCIdentifier": "SITE1"
+}

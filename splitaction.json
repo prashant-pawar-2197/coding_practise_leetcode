@@ -1,0 +1,49 @@
+{
+    "sctLookupKey": "recordExtensions_chargeInformation_debitCash_rateProfile_0_premiumRateType",
+    "changeSctName": true,
+    "transactionTypeChangeKeyFields": [
+        "recordExtensions_chargeInformation_ratingIndication_ratingGroup",
+        "recordExtensions_chargeInformation_debitCash_rateProfile_0_premiumRateType"
+    ],
+    "data": [
+        {
+            "key": "Connection",
+            "value": "SCT_DATA_Connection"
+        },
+        {
+            "key": "NetworkUsage",
+            "value": "SCT_DATA_NetworkUsage"
+        },
+        {
+            "key": "NUC-CC",
+            "value": "SCT_DATA_NetworkUsage"
+        },
+        {
+            "key": "FUP",
+            "value": "SCT_DATA_FUP"
+        }
+    ],
+    "arrayNameList": [
+        {
+            "arrayName": "listOfMultipleUnitUsage"
+        },
+        {
+            "arrayName": "listOfMultipleUnitUsage_0_usedUnitContainer"
+        },
+        {
+            "arrayName": "recordExtensions_chargeInformation"
+        }
+    ],
+    "msgInterface": {
+        "outInterface": "KAFKA",
+        "kafka": {
+            "topicName": "CGFM_PROCESSOR_GENERATOR"
+        }
+    },
+    "condition": "listOfMultipleUnitUsage_ratingGroup == value(recordExtensions_chargeInformation_ratingIndication_ratingGroup) && listOfMultipleUnitUsage_0_usedUnitContainer == value(recordExtensions_chargeInformation_ratingIndication_localSequenceNumber)",
+    "writeToOutInterface": false,
+    "sctList": [
+        "SCT_CGFM_CDR",
+        "SCT_DATA_IC_CDR"
+    ]
+}

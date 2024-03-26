@@ -1,0 +1,182 @@
+{
+    "basicService": "MMS",
+	"recordType": "MMS-MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "af1.TMDEP-45972.mavenir.com.mavenir.com;1096298391;1698680162423",
+	"subscriberIdentifier": "nai-498888822201@dummy.com",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 3,
+			"usedUnitContainer": [
+				{
+					"eventTimeStamps": [
+						"2023-10-30T15:36:03Z"
+					],
+					"localSequenceNumber": 0,
+					"totalVolume": 1024
+				}
+			],
+			"usedUnitContainerAsReceived": [
+				{
+					"eventTimeStamps": [
+						"2023-10-30T15:36:03Z"
+					],
+					"localSequenceNumber": 0,
+					"totalVolume": 1024
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-10-30T15:36:03Z",
+	"duration": 0,
+	"recordSequenceNumber": 0,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "bc979023-80e7-4ff5-9e33-e9465c85ffa0::272",
+	"recordExtensions": {
+		"transactionType": "EVENT",
+		"requestType": "ONLINE_EVENT",
+		"spInformation": {
+			"spId": "SPCCS",
+			"spName": "SPCCS"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "77008800",
+			"type": "Prepaid",
+			"state": "ACTIVE",
+			"msisdn": "498888822201",
+			"imsi": "542900000000001",
+			"subCosID": "PrepaidBaseClass",
+			"tariffPlan": "PKGMMSNA05",
+			"subscriberId": "123e4567-e89b-12d3-a456-542900000000001",
+			"taxExemption": true,
+			"btpExpireTime": "2023-11-30T23:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "PKGMMSNA05",
+					"productId": "PKGMMSNA05_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-11-29T23:59:59Z",
+					"reservationTime": "2023-10-30T15:36:03Z",
+					"balanceType": "MMS"
+				},
+				"debitAllowance": {
+					"debitAmount": 500,
+					"newBalance": 0,
+					"ratedUsageUnit": "BYTES",
+					"lastAccumRatedQuotaUsage": 0
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGMMSNA04",
+					"productId": "PKGMMSNA04_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-11-29T23:59:59Z",
+					"reservationTime": "2023-10-30T15:36:03Z",
+					"balanceType": "MMS"
+				},
+				"debitAllowance": {
+					"debitAmount": 524,
+					"newBalance": 76,
+					"ratedUsageUnit": "BYTES",
+					"lastAccumRatedQuotaUsage": 0
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGMMSNA05",
+					"productId": "PKGMMSNA05_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-11-29T23:59:59Z",
+					"reservationTime": "2023-10-30T15:36:03Z",
+					"balanceType": "MMS"
+				},
+				"debitCash": {
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 0,
+							"newBalance": 6000000000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-09-30T15:36:00Z",
+							"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+						}
+					]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_NATIONAL",
+			"roamType": "RT_NATIONAL",
+			"networkFlag": "NF_ONNET",
+			"callLeg": "CL_MO",
+			"subServiceType": "MO-NATIONAL-ROAMING",
+			"ratType": "2G"
+		}
+	},
+	"userEquipmentInfo": "imeisv-3333333533383335333033353330333833303330333233303332333133303436",
+	"mmsInfo": {
+		"origAddress": {
+			"sMaddressData": "499112233445",
+			"sMaddressDomain": {
+				"3GPPIMSIMCCMNC": "498888822222@mavenir.lab;rn=D009"
+			},
+			"sMaddressType": "MSISDN"
+		},
+		"recipientAddress": [
+			{
+				"sMaddressData": "499144392231",
+				"sMaddressDomain": {
+					"3GPPIMSIMCCMNC": "26223"
+				},
+				"sMaddressType": "MSISDN"
+			}
+		],
+		"submissionTime": "2036-02-07T06:34:56Z",
+		"messageID": "R47LGOOTAI312ANQ0A33GC87LP0USMHH",
+		"mMContentType": {
+			"typeNumber": 16,
+			"additionalTypeInformation": "28",
+			"contentSize": 28,
+			"additionalContentInformation": [
+				{
+					"typeNumber": 28,
+					"additionalTypeInformation": "28",
+					"contentSize": 28
+				}
+			]
+		},
+		"priority": 1,
+		"messageType": 1,
+		"messageSize": 1024,
+		"messageClass": {
+			"tokenText": "QWDSCDM120fe"
+		},
+		"deliveryReportRequested": 1
+	},
+	"psInfo": {
+		"tgppSGSNMCCMNC": "26221",
+		"tgppRATTYPE": "EUTRAN"
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "af1.mavenir.com",
+	"originRealm": "mavenir.com",
+	"cDCIdentifier": "SITE1"
+}

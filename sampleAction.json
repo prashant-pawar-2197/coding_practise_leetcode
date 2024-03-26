@@ -1,0 +1,58 @@
+{
+    "sourceFields": [
+        "retailCharge",
+        "discount",
+        "remainingBalance"
+    ],
+    "destinationFields": [
+        "retailCharge",
+        "discount",
+        "remainingBalance"
+    ],
+    "key": [
+        "recordExtensions_spInformation_spId",
+        "recordExtensions_subscriberInformation_type"
+    ],
+    "data": [
+        {
+            "key": "00000333_Prepaid",
+            "value": {
+                "precision": 2,
+                "divisionFactor": 100000000,
+                "operation": "ROUND"
+            }
+        },
+        {
+            "key": "00000333_Postpaid",
+            "value": {
+                "precision": 4,
+                "divisionFactor": 100000000,
+                "operation": "ROUND"
+            }
+        },
+        {
+            "key": "00000011_Prepaid",
+            "value": {
+                "precision": 2,
+                "divisionFactor": 100000000,
+                "operation": "ROUND"
+            }
+        },
+        {
+            "key": "00000011_Postpaid",
+            "value": {
+                "precision": 8,
+                "divisionFactor": 100000000,
+                "operation": "ROUND"
+            }
+        },
+        {
+            "key": "Default",
+            "value": {
+                "precision": 2,
+                "divisionFactor": 100000000,
+                "operation": "ROUND"
+            }
+        }
+    ]
+}

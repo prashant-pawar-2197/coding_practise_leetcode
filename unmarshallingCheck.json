@@ -1,0 +1,20 @@
+{
+    "actionList": [
+        {
+            "operationType": "DELETE",
+            "subDocKey": "RGKEY",
+            "listOfFields": [
+                "RGKey"
+            ],
+            "subDocFieldLength": "rgCount"
+        },
+        {
+            "operationType": "DELETE",
+            "subDocKey": "RGKEY",
+            "listOfFields": [
+                "RGKey"
+            ],
+            "subDocFieldLength": "rgCount"
+        }
+    ]
+}

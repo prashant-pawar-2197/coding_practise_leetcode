@@ -1,0 +1,21 @@
+{
+    "ActionSetName": "Action_IMEI",
+    "ActionSetList": [
+        {
+            "ActionName": "IMEI",
+            "STR_REGEX": {
+                "source": {
+                    "location": "rawCDR",
+                    "field": "pduSessionChargingInformation_userInformation_servedPEI",
+                    "pattern": "([a-z,A-Z]+)\\-(\\d{12})"
+                },
+                "destination": {
+                    "location": "rawCDR",
+                    "field": "IMEI",
+                    "pattern": "$2"
+                },
+                "createDestinationFieldIfNotPresent": true
+            }
+        }
+    ]
+}

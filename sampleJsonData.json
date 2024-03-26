@@ -1,0 +1,12 @@
+{
+        "paramlist" : [
+                {
+                "fieldName": "pduSessionChargingInformation_pduSessionInformation_ratType", 
+                "isMandatory": true 
+                },
+                {
+                "fieldName": "locationinfo", 
+                "isMandatory": true
+                }
+        ]
+}

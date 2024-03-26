@@ -1,0 +1,9 @@
+{
+    "location": "rawCDR",
+    "field": [
+        "recordExtensions_chargeInformation",
+        "recordExtensions_extChargingInformation"
+    ],
+    "algoType": "CGFM_RADIX_TRIE",
+    "listType": "CGFM_DELETE_FROM_LIST"
+}

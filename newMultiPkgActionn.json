@@ -1,0 +1,70 @@
+{
+    "FunctionName": "MultiPackageAggregation",
+    "Lookup": {
+        "debug": true,
+        "AggregateRateProfileArray": true,
+        "AggregateTaxAmt": true,
+        "AggregateBalanceChangeInfoArray": true,
+        "AggregateBalChangeDebitBal": true,
+        "AggregateDiscount": true,
+        "AggregateRateUsage": true,
+        "AddMultiPkgIndicator": true,
+        "RateProfileIsArray": true,
+        "AggregateIgnorePkgProductChange": false
+    },
+    "btpFlagEnabled": false,
+    "multiPackageConfig": {
+        "splitOnPremiumTypes": [
+            {
+                "key": "FUP",
+                "value": "FUP"
+            },
+            {
+                "key": "NetworkUsage",
+                "value": "NetworkUsage"
+            },
+            {
+                "key": "NUC-CC",
+                "value": "NetworkUsage"
+            }
+        ],
+        "timeFormat": "%YEAR%-%month_nz%-%date_z%T%hour_24%:%minute_z%:%second_z%-07:00",
+        "rateProfilePrefixForReplacingToNuccc": "91002",
+        "fUPCopyPkgFromFirstOccranceOfNormalRate": true,
+        "removeChargeInfoFields": {
+            "listType": "CGFM_ALLOWED_IN_LIST",
+            "deleteFields": [
+                "debitCash.balanceChangeInfo",
+                "debitCash.discountProfile.discountAmount",
+                "debitCash.rateProfile.0.taxAmount",
+                "debitCash.discountProfile.discountProfileId"
+            ],
+            "applcablePremiumRateTypes": [
+                "Connection"
+            ]
+        },
+        "splitOnPulseChange": true,
+        "premiumRateTypes": [
+            "FUP",
+            "NetworkUsage",
+            "NUC-CC",
+            "Connection"
+        ],
+        "units": [
+            {
+                "key": "SEC",
+                "value": {
+                    "unitValue": 1,
+                    "minuteUnit": "SEC"
+                }
+            },
+            {
+                "key": "MIN",
+                "value": {
+                    "unitValue": 60,
+                    "minuteUnit": "SEC"
+                }
+            }
+        ]
+    }
+}

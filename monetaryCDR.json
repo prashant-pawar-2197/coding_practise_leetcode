@@ -1,0 +1,170 @@
+{
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "af1.TMDEP-15643.mavenir.com.mavenir.com;1096298391;58081",
+    "subscriberIdentifier": "imsi-202020000000001",
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 5001,
+            "usedUnitContainer": [
+                {
+                    "localSequenceNumber": 0,
+                    "serviceId": 1,
+                    "time": 60
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "2022-10-11T04:08:30Z",
+    "duration": 1,
+    "recordSequenceNumber": 1,
+    "causeForRecordClosing": "PartialCDRTimeLimit",
+    "localRecordSequenceNumber": "43d8046b-2913-4fa1-9019-8d5d2cfa4e35::606",
+    "recordExtensions": {
+        "transactionType": "UPDATE",
+        "requestType": "ONLINE_SESSION",
+        "spInformation": {
+            "spId": "00000333",
+            "spName": "T-Mobile"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "77008800",
+            "type": "Prepaid",
+            "state": "ACTIVE",
+            "msisdn": "14699162513",
+            "imsi": "202020000000001",
+            "subCosID": "PrepaidBaseClass",
+            "tariffPlan": "PKGDIA0000002",
+            "subscriberId": "123e4567-e89b-12d3-a456-2020200001",
+            "taxExemption": true
+        },
+        "chargeInformation": {
+            "ratingIndication": {
+                "packageId": "u4-PKGDIA0000002",
+                "productId": "PKGDIA0000002_PRD0000011",
+                "ratingGroup": 5001,
+                "packageInstanceId": "1",
+                "productInstanceId": "1",
+                "localSequenceNumber": 0
+            },
+            "debitAllowance": {
+                "debitAmount": 500000000,
+                "newBalance": 0,
+                "ratedUsageUnit": "UNITS"
+            },
+            "debitCash": {
+                "rateProfile": {
+                    "rateProfileId": "RP0000015",
+                    "rateProfileVer": "1",
+                    "rates": [
+                        {
+                            "low": 0,
+                            "high": 2,
+                            "rate": 0,
+                            "ratedUnit": "SEC",
+                            "unitSize": 60,
+                            "rateProfileId": "RP0000013"
+                        },
+                        {
+                            "low": 3,
+                            "high": 110,
+                            "rate": 0,
+                            "ratedUnit": "SEC",
+                            "unitSize": 60,
+                            "rateProfileId": "RP0000014"
+                        }
+                    ],
+                    "lastAccumRatedUsage": 4,
+                    "taxId": "Tax001",
+                    "ratingType": "TIERED",
+                    "taxAmount": 0.4
+                },
+                "discountProfile": {
+                    "discountProfileId": "DP001",
+                    "discountProfileVer": "V0001",
+                    "discountAmount": 1050000000
+                },
+                "balanceChangeInfo": [
+                    {
+                        "balanceId": "BAL000000",
+                        "debitAmount": 1200000000,
+                        "newBalance": 8000000000,
+                        "balanceType": "GC",
+                        "effectiveStartDate": "2022-06-12T23:59:59Z",
+                        "effectiveExpiryDate": "2023-06-12T23:59:59Z"
+                    }
+                ],
+                "ratedUsage": 300
+            },
+            "callingCUGId": [
+                "CUG101",
+                "CUG102",
+                "u4-CUG103"
+            ],
+            "calledCUGId": [
+                "u4-CUG103",
+                "CUG104",
+                "CUG105"
+            ]
+        },
+        "extChargingInformation": {
+            "callDestinationType": "CDT_INTERNATIONAL",
+            "roamType": "RT_INTERNATIONAL",
+            "roamUsageZone": [
+                "u4-PARIS"
+            ],
+            "intlUsageZone": [
+                "u4-AUCKLAND"
+            ],
+            "networkFlag": "NF_OFFNET",
+            "callLeg": "CL_MO",
+            "forwardedFlag": "FL_NON_FORWARDED",
+            "calledPartyTerminalType": "CPTT_FIXED_LINE",
+            "ratType": "4G"
+        }
+    },
+    "userEquipmentInfo": "imeisv-33353835303530383030323032313046",
+    "imsInfo": {
+        "roleofNode": 0,
+        "callingPartyAddress": [
+            "sip:14699162513@mavenir.com"
+        ],
+        "calledPartyAddress": "sip:+19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone",
+        "interOperatorIdentifier": [
+            {
+                "originatingIOI": "32345"
+            }
+        ],
+        "iMSChargingIdentifier": "ocatf000.sip.lab.t-mobile.com-1521-66590-266619",
+        "accessNetworkInformation": [
+            "3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=310310138f0080801"
+        ],
+        "instanceID": "urn:gsma:imei:35850508-002021-0",
+        "eventType": {
+            "sipMethod": "INVITE"
+        },
+        "userSessionID": "000050D7F79C-3288-1689e700-48-5aa9a25e-59ddf",
+        "nodeFunctionality": 6,
+        "requestedPartyAddress": [
+            "sip:19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone"
+        ],
+        "timeStamps": {
+            "sIPRequestTimeStamp": "2036-02-07T06:28:17Z",
+            "sIPRequestTimeStampFraction": 404
+        },
+        "sDPSessionDescription": [
+            "v=0",
+            "o=SAMSUNG-IMS-UE 1521066588745339 0 IN IP4 10.169.60.36",
+            "s=SS VOIP",
+            "c=IN IP4 10.169.59.37",
+            "t=0 0"
+        ]
+    },
+    "resultCode": "SUCCESS",
+    "originHost": "af1.mavenir.com",
+    "originRealm": "mavenir.com",
+    "remainingBalance": 1234567891,
+    "retailCharge": 2,
+    "discount": 1234567891,
+    "recordExtensions_subscriberInformation_type": "Prepaid",
+    "recordExtensions_spInformation_spId": "00000333"
+}

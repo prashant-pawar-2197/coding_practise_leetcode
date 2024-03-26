@@ -1,0 +1,180 @@
+{
+	"recordType": "MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "af1.TMDEP-15643.mavenir.com.mavenir.com;1096298391;58081",
+	"subscriberIdentifier": "imsi-202020000000001",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 5001,
+			"usedUnitContainer": [
+				{
+					"localSequenceNumber": 0,
+					"serviceId": 1,
+					"time": 1000
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2022-11-25T10:14:15Z",
+	"duration": 1,
+	"recordSequenceNumber": 1,
+	"causeForRecordClosing": "p2-PartialCDRTimeLimit",
+	"localRecordSequenceNumber": "43d8046b-2913-4fa1-9019-8d5d2cfa4e35::606",
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "T-Mobile"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "77008800",
+			"type": "Prepaid",
+			"state": "ACTIVE",
+			"msisdn": "14699162513",
+			"imsi": "202020000000001",
+			"subCosID": "PrepaidBaseClass",
+			"tariffPlan": "PKGDIA0000002",
+			"subscriberId": "123e4567-e89b-12d3-a456-2020200001",
+			"taxExemption": false,
+			"btpExpireTime": "2022-12-12T23:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "u2-PKGDIA0000003",
+					"productId": "PKGDIA0000003_PRD0000011",
+					"ratingGroup": 5001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2022-11-11T23:59:59Z",
+					"callingCUGId": [
+						"CUG101",
+						"CUG102",
+						"u2-CUG103"
+					],
+					"calledCUGId": [
+						"u2-CUG103",
+						"CUG104",
+						"CUG105"
+					],
+					"reservationTime": "2022-10-10T18:57:09Z",
+					"changeInBTPCycle": "Yes"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "RP0000011",
+							"rates": [
+								{
+									"low": 0,
+									"high": 10,
+									"rate": 4,
+									"ratedUnit": "SEC",
+									"unitSize": 60
+								},
+                                {
+									"low": 11,
+									"high": 20,
+									"rate": 3,
+									"ratedUnit": "SEC",
+									"unitSize": 30
+								},
+                                {
+									"low": 21,
+									"high": 30,
+									"rate": 2,
+									"ratedUnit": "SEC",
+									"unitSize": 10
+								},
+                                {
+									"low": 31,
+									"high": 92233720368,
+									"rate": 1,
+									"ratedUnit": "SEC",
+									"unitSize": 5
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"taxId": "TA021",
+                            "ratingType": "TIERED"
+						}
+					],
+					"discountProfile": {
+						"discountProfileId": "DP001",
+						"discountProfileVer": "V0001",
+						"discountAmount": 1050000000
+					},
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 1200000000,
+							"newBalance": 9000000000,
+							"balanceType": "GC",
+							"effectiveStartDate": "2022-06-12T23:59:59Z",
+							"effectiveExpiryDate": "2023-06-12T23:59:59Z"
+						}
+					],
+					"ratedUsage": 300
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_INTERNATIONAL",
+			"roamType": "RT_INTERNATIONAL",
+			"roamUsageZone": [
+				"u2-PARIS"
+			],
+			"intlUsageZone": [
+				"u2-AUCKLAND"
+			],
+			"networkFlag": "NF_OFFNET",
+			"callLeg": "CL_MO",
+			"forwardedFlag": "FL_NON_FORWARDED",
+			"calledPartyTerminalType": "CPTT_FIXED_LINE",
+			"ratType": "5G"
+		}
+	},
+	"userEquipmentInfo": "imeisv-33353835303530383030323032313046",
+	"imsInfo": {
+		"numberPortabilityRoutingInformation": "D124",
+		"roleofNode": 0,
+		"callingPartyAddress": [
+			"sip:14699162513@mavenir.com"
+		],
+		"calledPartyAddress": "sip:+19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone",
+		"interOperatorIdentifier": [
+			{
+				"originatingIOI": "32345"
+			}
+		],
+		"iMSChargingIdentifier": "ocatf000.sip.lab.t-mobile.com-1521-66590-266619",
+		"accessNetworkInformation": [
+			"3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=310310138f0080801"
+		],
+		"instanceID": "urn:gsma:imei:35850508-002021-0",
+		"eventType": {
+			"sipMethod": "INVITE"
+		},
+		"userSessionID": "000050D7F79C-3288-1689e700-48-5aa9a25e-59ddf",
+		"nodeFunctionality": 6,
+		"requestedPartyAddress": [
+			"sip:19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone"
+		],
+		"timeStamps": {
+			"sIPRequestTimeStamp": "2036-02-07T06:28:17Z",
+			"sIPRequestTimeStampFraction": 404
+		},
+		"sDPSessionDescription": [
+			"v=0",
+			"o=SAMSUNG-IMS-UE 1521066588745339 0 IN IP4 10.169.60.36",
+			"s=SS VOIP",
+			"c=IN IP4 10.169.59.37",
+			"t=0 0"
+		]
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "af1.mavenir.com",
+	"originRealm": "mavenir.com"
+}

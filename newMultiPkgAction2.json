@@ -1,0 +1,35 @@
+{
+    "FunctionName": "MultiPackageAggregation",
+    "Lookup": {
+        "debug": true,
+        "AggregateRateProfileArray": true,
+        "AggregateTaxAmt": true,
+        "AggregateBalanceChangeInfoArray": true,
+        "AggregateBalChangeDebitBal": true,
+        "AggregateDiscount": true,
+        "AggregateRateUsage": true,
+        "AddMultiPkgIndicator": true,
+        "RateProfileIsArray": true,
+        "AggregateIgnorePkgProductChange": false
+    },
+    "btpFlagEnabled": true,
+    "multiPackageConfig": {
+        "fUPCopyPkgFromFirstOccranceOfNormalRate": true,
+        "splitOnPulseChange": true,
+        "removeChargeInfoFields": {
+            "listType": "CGFM_ALLOWED_IN_LIST",
+            "deleteFields": [
+                "debitCash.balanceChangeInfo",
+                "debitCash.discountProfile.discountAmount",
+                "debitCash.discountProfile.discountProfileId",
+                "debitCash.rateProfile.0.taxAmount"
+            ],
+            "applcablePremiumRateTypes": [
+                "Connection",
+                "FUP",
+                "NetworkUsage",
+                "NUC-CC"
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+______________________________________________________________________________
+
+Multiple defer Statements in Go
+
+When we use multiple defer in a program, the order of execution of the defer statements will be LIFO (Last In First Out).
+
+This means the last defer statement will be executed first. For example,
+
+package main
+import "fmt"
+
+func main() {
+
+  defer fmt.Println("One")
+  defer fmt.Println("Two")
+  defer fmt.Println("Three")
+
+}
+_______________________________________________________________________________
+
+Output
+
+Three
+Two
+One
+
+
+_______________________________________________________________________________
+
+
+Anonymous Structure and Field in Golang
+
+A structure or struct in Golang is a user-defined type, which allows us to create a group of elements of different types into a single unit. Any real-world entity which has some set of properties or fields can be represented as a struct.
+
+Anonymous Structure
+
+In Go language, you are allowed to create an anonymous structure. An anonymous structure is a structure which does not contain a name. It useful when you want to create a one-time usable structure. You can create an anonymous structure using the following syntax:
+
+variable_name := struct{
+// fields
+}{// Field_values}
+
+
+
+=====================
+TO CHECK IF THE OBJECT OF A STRUCT IS EMPTY OR NOT
+
+	var p1 Person
+
+	p2 := Person{
+		name:            "John",
+		age:             45,
+		favouriteColors: []string{"red", "green"},
+	}
+	fmt.Println(reflect.ValueOf(p1).IsZero()) // true
+	fmt.Println(reflect.ValueOf(p2).IsZero()) // false
+	
+	
+=====================
+RESTARTING A FOR LOOP
+
+	slice := []int{1, 2, 3, 4, 5}
+
+	var count int
+
+	for i := 0; i < len(slice); i++ {
+		fmt.Println(slice[i])
+
+		count++
+		if count == 2 {
+			i = -1 // restart from the beginning
+		}
+	}
+	
+	
+RESTARTING A FOR RANGE LOOP
+
+func main() {
+	slice := []int{1, 2, 3, 4, 5}
+
+	var count int
+	loop:
+		for _, v := range slice {
+			fmt.Println(v)
+
+			count++
+			if count == 2 {
+				goto loop
+			}
+		}
+	}
+	
+===============================

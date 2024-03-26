@@ -1,0 +1,369 @@
+{
+    "recordType": "CHF-CDR",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "66f01548956d665aa5c3a94dd59e9f24",
+    "subscriberIdentifier": "imsi-262238799998608",
+    "nfConsumerInformation": {
+        "networkFunctionality": "SMF",
+        "networkFunctionName": "smfCtf"
+    },
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 1,
+            "requestedUnit": {
+                "downlinkVolume": 500000,
+                "totalVolume": 1000000000,
+                "uplinkVolume": 500000
+            },
+            "usedUnitContainer": [
+                {
+                    "localSequenceNumber": 1,
+                    "quotaManagementIndicator": "ONLINE_CHARGING",
+                    "totalVolume": 40000000,
+                    "downlinkVolume": 20000000,
+                    "uplinkVolume": 20000000,
+                    "triggers": [
+                        {
+                            "triggerCategory": "IMMEDIATE_REPORT",
+                            "triggerType": "TARIFF_TIME_CHANGE"
+                        }
+                    ]
+                },
+                {
+                    "localSequenceNumber": 2,
+                    "quotaManagementIndicator": "ONLINE_CHARGING",
+                    "totalVolume": 60000000,
+                    "downlinkVolume": 30000000,
+                    "uplinkVolume": 30000000,
+                    "triggers": [
+                        {
+                            "triggerCategory": "IMMEDIATE_REPORT",
+                            "triggerType": "VALIDITY_TIME"
+                        }
+                    ]
+                }
+            ],
+            "usedUnitContainerAsReceived": [
+                {
+                    "localSequenceNumber": 1,
+                    "quotaManagementIndicator": "ONLINE_CHARGING",
+                    "totalVolume": 40000000,
+                    "triggers": [
+                        {
+                            "triggerCategory": "IMMEDIATE_REPORT",
+                            "triggerType": "TARIFF_TIME_CHANGE"
+                        }
+                    ]
+                },
+                {
+                    "localSequenceNumber": 1,
+                    "quotaManagementIndicator": "ONLINE_CHARGING",
+                    "totalVolume": 60000000,
+                    "triggers": [
+                        {
+                            "triggerCategory": "IMMEDIATE_REPORT",
+                            "triggerType": "VALIDITY_TIME"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "'$(date -u +'%FT%TZ')'",
+    "duration": 1,
+    "recordSequenceNumber": 1,
+    "causeForRecordClosing": "PartialCDRTimeLimit",
+    "localRecordSequenceNumber": "52f05d9b-274a-4438-9644-3867d62a1d45::276",
+    "recordExtensions": {
+        "transactionType": "UPDATE",
+        "requestType": "ONLINE_SESSION",
+        "spInformation": {
+            "spId": "00000333",
+            "spName": "T-Mobile"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "4915566599608",
+            "type": "Postpaid",
+            "state": "ACTIVE",
+            "msisdn": "4915566599608",
+            "imsi": "262238799998608",
+            "subCosID": "PostpaidBaseClass",
+            "tariffPlan": "PKG0000001",
+            "subscriberId": "123e4567-e89b-12d3-a456-1825500001",
+            "taxExemption": false,
+            "btpExpireTime": "2024-01-20T23:59:59Z",
+            "imsiSiteId": "SITE1"
+        },
+        "chargeInformation": [
+            {
+                "ratingIndication": {
+                    "packageId": "PKG0000002",
+                    "productId": "PKG0000002_PRD0000001",
+                    "ratingGroup": 1,
+                    "packageInstanceId": 1,
+                    "productInstanceId": 1,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 1,
+                    "changeInBTPCycle": "No",
+                    "effectiveExpiryDate": "2024-01-09T12:25:06Z",
+                    "reservationTime": "2023-12-31T22:58:00Z",
+                    "balanceType": "DATA"
+                },
+                "debitAllowance": {
+                    "debitAmount": 40000000,
+                    "newBalance": 99999960000000,
+                    "ratedUsageUnit": "BYTES",
+                    "lastAccumRatedQuotaUsage": 0
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "PKG0000002",
+                    "productId": "PKG0000002_PRD0000001",
+                    "ratingGroup": 1,
+                    "packageInstanceId": 1,
+                    "productInstanceId": 1,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 2,
+                    "effectiveExpiryDate": "2024-01-09T12:25:06Z",
+                    "reservationTime": "2023-12-31T22:58:00Z",
+                    "changeInBTPCycle": "Yes",
+                    "balanceType": "DATA"
+                },
+                "debitAllowance": {
+                    "debitAmount": 60000000,
+                    "newBalance": 99999900000000,
+                    "ratedUsageUnit": "BYTES",
+                    "lastAccumRatedQuotaUsage": 40000000
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "PKG0000002",
+                    "productId": "PKG0000002_PRD0000001",
+                    "ratingGroup": 1,
+                    "packageInstanceId": 1,
+                    "productInstanceId": 1,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 1,
+                    "changeInBTPCycle": "No",
+                    "effectiveExpiryDate": "2024-01-09T12:25:06Z",
+                    "reservationTime": "2023-12-31T22:58:00Z",
+                    "balanceType": "DATA"
+                },
+                "debitCash": {
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 0,
+                            "newBalance": 40,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2020-04-07T00:00:00Z",
+                            "effectiveExpiryDate": "2030-04-07T23:59:59Z"
+                        }
+                    ]
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "PKG0000002_FUP",
+                    "productId": "PKG0000002_FUP_PRD0000001",
+                    "ratingGroup": 1,
+                    "packageInstanceId": 1,
+                    "productInstanceId": 1,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 1,
+                    "changeInBTPCycle": "Yes",
+                    "effectiveExpiryDate": "2024-01-09T12:25:06Z",
+                    "reservationTime": "2023-12-31T22:58:00Z",
+                    "balanceType": "DATA"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "91003_FUP_Data",
+                            "rateProfileVer": "2",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4611686018427387904,
+                                    "rate": 500000,
+                                    "ratedUnit": "MB",
+                                    "unitSize": 1
+                                }
+                            ],
+                            "lastAccumRatedUsage": 0,
+                            "taxId": "TAX19",
+                            "ratingType": "TELESCOPIC",
+                            "taxAmount": 500000000,
+                            "premiumRateType": "FUP",
+                            "maxAllowedFUP": {
+                                "rate": 2500000000,
+                                "ratedUnit": 9,
+                                "unitSize": 1
+                            }
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 2000000000,
+                            "newBalance": 29966075000,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2023-07-20T10:57:43Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        },
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 2000000000,
+                            "newBalance": 29966075000,
+                            "balanceType": "pc",
+                            "effectiveStartDate": "2023-07-20T10:57:43Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        }
+                    ],
+                    "ratedUsage": 141000000
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "PKG0000002_FUP",
+                    "productId": "PKG0000002_FUP_PRD0000001",
+                    "ratingGroup": 1,
+                    "packageInstanceId": 1,
+                    "productInstanceId": 1,
+                    "defaultPulse": 1,
+                    "defaultPulseUnit": "BYTES",
+                    "localSequenceNumber": 2,
+                    "effectiveExpiryDate": "2024-01-09T12:25:06Z",
+                    "reservationTime": "2023-12-31T22:58:00Z",
+                    "changeInBTPCycle": "Yes",
+                    "balanceType": "DATA"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "91003_FUP_Data",
+                            "rateProfileVer": "2",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 4611686018427387904,
+                                    "rate": 500000,
+                                    "ratedUnit": "MB",
+                                    "unitSize": 1
+                                }
+                            ],
+                            "lastAccumRatedUsage": 0,
+                            "taxId": "TAX19",
+                            "ratingType": "TELESCOPIC",
+                            "taxAmount": 500000000,
+                            "premiumRateType": "FUP",
+                            "maxAllowedFUP": {
+                                "rate": 2500000000,
+                                "ratedUnit": 9,
+                                "unitSize": 1
+                            }
+                        }
+                    ],
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 2000000000,
+                            "newBalance": 2000,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2023-07-20T10:57:43Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        },
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 2000000000,
+                            "newBalance": 2000,
+                            "balanceType": "pc",
+                            "effectiveStartDate": "2023-07-20T10:57:43Z",
+                            "effectiveExpiryDate": "2099-01-01T00:00:00Z"
+                        }
+                    ],
+                    "ratedUsage": 141000000
+                }
+            }
+        ],
+        "extChargingInformation": {
+            "roamType": "RT_NO_ROAM",
+            "ratType": "NR",
+            "pduSessionChargingInformation": {
+                "pduSessionInformation": {
+                    "ratType": "NR",
+                    "dnnId": "apn1.mnc005.mcc405.gprs"
+                },
+                "userLocationinfo": {
+                    "nrLocation": {
+                        "ncgi": {
+                            "nrCellId": "0499602D30",
+                            "plmnId": {
+                                "mcc": "405",
+                                "mnc": "05"
+                            }
+                        },
+                        "tai": {
+                            "plmnId": {
+                                "mcc": "405",
+                                "mnc": "05"
+                            },
+                            "tac": "000065"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "pduSessionChargingInformation": {
+        "pduSessionInformation": {
+            "authorizedSessionAMBR": {
+                "downlink": "8000000",
+                "uplink": "8000000"
+            },
+            "dnnId": "apn1.mnc005.mcc405.gprs",
+            "networkSlicingInfo": {
+                "sNSSAI": {
+                    "sd": "000001",
+                    "sst": 1
+                }
+            },
+            "pduAddress": {
+                "pduIPv4Address": "10.31.35.242"
+            },
+            "pduSessionID": 1,
+            "pduType": "IPV4",
+            "ratType": "NR",
+            "subscribedSessionAMBR": {
+                "downlink": "1000000",
+                "uplink": "1000000"
+            }
+        },
+        "userLocationinfo": {
+            "nrLocation": {
+                "ncgi": {
+                    "nrCellId": "0499602D30",
+                    "plmnId": {
+                        "mcc": "405",
+                        "mnc": "05"
+                    }
+                },
+                "tai": {
+                    "plmnId": {
+                        "mcc": "405",
+                        "mnc": "05"
+                    },
+                    "tac": "000065"
+                }
+            }
+        }
+    },
+    "resultCode": "SUCCESS",
+    "cDCIdentifier": "SITE1"
+}

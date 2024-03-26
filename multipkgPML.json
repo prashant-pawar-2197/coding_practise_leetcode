@@ -1,0 +1,72 @@
+{
+    "FunctionName": "MultiPackageAggregation",
+    "Lookup": {
+        "debug": true,
+        "AggregateRateProfileArray": true,
+        "AggregateTaxAmt": true,
+        "AggregateBalanceChangeInfoArray": true,
+        "AggregateBalChangeDebitBal": true,
+        "AggregateDiscount": true,
+        "AggregateRateUsage": true,
+        "AddMultiPkgIndicator": true,
+        "RateProfileIsArray": true,
+        "AggregateIgnorePkgProductChange": false
+    },
+    "btpFlagEnabled": true,
+    "multiPackageConfig": {
+        "timeFormat": "%YEAR%-%month_nz%-%date_z%T%hour_24%:%minute_z%:%second_z%Z",
+        "rateProfilePrefixForReplacingToNuccc": "91002",
+        "splitOnPulseChange": true,
+        "units": [
+            {
+                "key": "BYTES",
+                "value": {
+                    "unitValue": 1,
+                    "minuteUnit": "BYTES"
+                }
+            },
+            {
+                "key": "KB",
+                "value": {
+                    "unitValue": 1000,
+                    "minuteUnit": "BYTES"
+                }
+            },
+            {
+                "key": "MB",
+                "value": {
+                    "unitValue": 1000000,
+                    "minuteUnit": "BYTES"
+                }
+            },
+            {
+                "key": "GB",
+                "value": {
+                    "unitValue": 1000000000,
+                    "minuteUnit": "BYTES"
+                }
+            },
+            {
+                "key": "KiB",
+                "value": {
+                    "unitValue": 1024,
+                    "minuteUnit": "BYTES"
+                }
+            },
+            {
+                "key": "MiB",
+                "value": {
+                    "unitValue": 1048576,
+                    "minuteUnit": "BYTES"
+                }
+            },
+            {
+                "key": "GiB",
+                "value": {
+                    "unitValue": 1073741824,
+                    "minuteUnit": "BYTES"
+                }
+            }
+        ]
+    }
+}

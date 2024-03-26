@@ -1,0 +1,10 @@
+{
+    "customSetName": "codecTypesVoice",
+    "destinationField": "codec",
+    "patternMediaName": "(m=audio) (.*) (RTP/AVP) (\\d+) (.*)",
+    "patternMediaDesc": "(a=rtpmap:$i) (.*)",
+    "mediaNameField": "imsInfo_sDPMediaComponent_$i_sDPMediaName",
+    "descriptionField": "sDPMediaDescription_$i",
+    "mediaNameField_ISBC": "iBCFRecord_list-Of-SDP-Media-Components_$x_sDP-Media-Components_$y_sDP-Media-Name",
+    "descriptionField_ISBC": "sDP-Media-Descriptions_$i"
+}

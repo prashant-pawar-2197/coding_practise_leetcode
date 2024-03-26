@@ -1,0 +1,236 @@
+{
+	"recordType": "CHF-CDR",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "490938bf7bf29a7d4d72e36fec525750",
+	"subscriberIdentifier": "imsi-262238799998608",
+	"nfConsumerInformation": {
+		"networkFunctionality": "SMF",
+		"networkFunctionName": "36a645d0-6f86-4bff-8643-5d1390bafb24",
+		"networkFunctionPLMNIdentifier": {
+			"mcc": "262",
+			"mnc": "23"
+		}
+	},
+	"triggers": [
+		{
+			"triggerCategory": "IMMEDIATE_REPORT",
+			"triggerType": "VALIDITY_TIME"
+		}
+	],
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 1,
+			"usedUnitContainer": [
+				{
+					"downlinkVolume": 25242,
+					"localSequenceNumber": 1,
+					"quotaManagementIndicator": "ONLINE_CHARGING",
+					"totalVolume": 44450,
+					"triggerTimestamp": "2023-02-10T12:18:26.18Z",
+					"triggers": [
+						{
+							"triggerCategory": "IMMEDIATE_REPORT",
+							"triggerType": "VALIDITY_TIME"
+						}
+					],
+					"uplinkVolume": 19168
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-05-26T11:29:33Z",
+	"duration": 77,
+    "basicService": "Data",
+	"recordSequenceNumber": 1221591861,
+	"causeForRecordClosing": "PartialCDRTimeLimit",
+	"localRecordSequenceNumber": "2dadecf2-e29b-4b97-933e-e66efc764a85::1110664",
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "1u1"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "4915566599608",
+			"type": "Postpaid",
+			"state": "Active",
+			"msisdn": "4915566599608",
+			"imsi": "262238799998608",
+			"subCosID": "PostPaidCOS",
+			"tariffPlan": "2e5b6ea19fa941b095cf06b81db3bcdd",
+			"subscriberId": "00000011-0000-4000-8000-419211926508",
+			"taxExemption": false,
+			"btpExpireTime": "2023-02-18T22:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "TP00000021",
+					"productId": "TP00000021_DATA_PROD",
+					"ratingGroup": 1,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-05-28T11:28:56Z",
+					"reservationTime": "2023-05-26T11:28:16Z",
+					"balanceType": "DATA"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "RATE_TAX_2",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 8,
+									"rate": 200,
+									"ratedUnit": "SEC",
+									"unitSize": 60
+								},
+								{
+									"low": 9,
+									"high": 99999999999,
+									"rate": 3,
+									"ratedUnit": "SEC",
+									"unitSize": 30
+								}
+							],
+							"taxAmount": 10,
+							"lastAccumRatedUsage": 0,
+							"ratingType": "TIERED",
+							"tierUsage": [
+								{
+									"range": {
+										"low": 0,
+										"high": 8,
+										"rate": 0,
+										"ratedUnit": "SEC",
+										"unitSize": 60
+									},
+									"taxAmount": 7,
+									"discountAmount": 15,
+									"debitAmount": 23,
+									"ratedUsage": 90
+								},
+								{
+									"range": {
+										"low": 0,
+										"high": 8,
+										"rate": 4,
+										"ratedUnit": "SEC",
+										"unitSize": 30
+									},
+									"taxAmount": 3,
+									"discountAmount": 5,
+									"debitAmount": 10,
+									"ratedUsage": 30
+								}
+							]
+						}
+					],
+					"discountProfile": {
+						"discountProfileId": "DIS121",
+						"discountProfileVer": "1",
+						"discountAmount": 20
+					},
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 33,
+							"newBalance": 67,
+							"balanceType": "GC",
+							"effectiveStartDate": "2020-04-01T00:00:00.000Z",
+							"effectiveExpiryDate": "2040-04-30T00:00:00.000Z"
+						},
+						{
+							"balanceId": "BAL000001",
+							"debitAmount": 0,
+							"newBalance": 100,
+							"balanceType": "PC",
+							"effectiveStartDate": "2020-04-01T00:00:00.000Z",
+							"effectiveExpiryDate": "2040-04-30T00:00:00.000Z"
+						}
+					],
+					"ratedUsage": 120
+				}
+			}
+		],
+		"extChargingInformation": {
+			"roamType": "RT_NO_ROAM",
+			"subServiceType": "DATA-LOCAL",
+			"visitedMCCMNC": "26223",
+			"visitedCountryCode": "49",
+			"ratType": "EUTRA"
+		}
+	},
+	"pduSessionChargingInformation": {
+		"chargingId": 96367,
+		"pduSessionInformation": {
+			"chargingCharacteristicsSelectionMode": "HOME_DEFAULT",
+			"dnnId": "fwaint.mnc023.mcc262.gprs",
+			"hPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"networkSlicingInfo": {
+				"sNSSAI": {
+					"sd": "000001",
+					"sst": 1
+				}
+			},
+			"pduAddress": {
+				"iPv4dynamicAddressFlag": true,
+				"iPv6dynamicPrefixFlag": true,
+				"pduIPv4Address": "100.65.255.135",
+				"pduIPv6AddresswithPrefix": "2a00:fbc:14d1:9526::"
+			},
+			"pduSessionID": 1,
+			"pduType": "IPV4V6",
+			"ratType": "EUTRA",
+			"servingCNPlmnId": {
+				"mcc": "262",
+				"mnc": "23"
+			},
+			"startTime": "2023-02-10T12:17:09Z",
+			"subscribedQoSInformation": {
+				"5qi": 9,
+				"arp": {
+					"preemptCap": "NOT_PREEMPT",
+					"preemptVuln": "PREEMPTABLE",
+					"priorityLevel": 2
+				}
+			},
+			"subscribedSessionAMBR": {
+				"downlink": "4294967000 bps",
+				"uplink": "4294967000 bps"
+			}
+		},
+		"uetimeZone": "+00:00",
+		"userInformation": {
+			"servedGPSI": "msisdn-4915566599608",
+			"servedPEI": "imeisv-8671970503440441"
+		},
+		"userLocationinfo": {
+			"eutraLocation": {
+				"ecgi": {
+					"eutraCellId": "02CB001",
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					}
+				},
+				"tai": {
+					"plmnId": {
+						"mcc": "262",
+						"mnc": "23"
+					},
+					"tac": "0065"
+				}
+			}
+		}
+	},
+	"resultCode": "SUCCESS",
+	"cDCIdentifier": "SITE1"
+}

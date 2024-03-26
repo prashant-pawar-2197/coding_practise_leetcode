@@ -1,0 +1,238 @@
+{
+	"recordType": "CHF-CDR",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "FRN-16271-TMDEP-41579;58081",
+	"subscriberIdentifier": "imsi-162710000000033",
+	"listOfMultipleUnitUsage": [
+		{
+			"ratingGroup": 1001,
+			"usedUnitContainer": [
+				{
+					"localSequenceNumber": 0,
+					"totalVolume": 150000000,
+					"triggers": [
+						{
+							"triggerCategory": "",
+							"triggerType": "VALIDITY_TIME"
+						}
+					]
+				}
+			]
+		}
+	],
+	"recordOpeningTime": "2023-04-27T07:37:30Z",
+	"duration": 6,
+	"recordSequenceNumber": 1,
+	"causeForRecordClosing": "PartialCDRVolumeLimit",
+	"localRecordSequenceNumber": "b8e3067d-1f95-4b8f-8fe6-20d056c9bc66::166",
+	"recordExtensions": {
+		"transactionType": "UPDATE",
+		"requestType": "ONLINE_SESSION",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "T-Mobile"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "77008800",
+			"type": "Postpaid",
+			"state": "ACTIVE",
+			"msisdn": "1627100033",
+			"imsi": "162710000000033",
+			"subCosID": "PostpaidBaseClass",
+			"tariffPlan": "PKGDATA01",
+			"subscriberId": "123e4567-e89b-12d3-a456-1627100033",
+			"taxExemption": false,
+			"btpExpireTime": "2023-04-30T23:59:59Z"
+		},
+		"chargeInformation": [
+			{
+				"ratingIndication": {
+					"packageId": "PKGDATA01",
+					"productId": "PKGDATA01_PRD0000001",
+					"ratingGroup": 1001,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-04-30T23:59:59Z",
+					"reservationTime": "2023-04-27T07:37:24Z",
+					"balanceType": "DATA"
+				},
+				"debitAllowance": {
+					"debitAmount": 150000000,
+					"newBalance": 0,
+					"ratedUsageUnit": "BYTES"
+				}
+			},
+			{
+				"ratingIndication": {
+					"ratingGroup": 1001,
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-04-27T07:37:24Z"
+				},
+				"debitCash": {
+					"rateProfile": [
+						{
+							"rateProfileId": "91003_FUP",
+							"rateProfileVer": "1",
+							"rates": [
+								{
+									"low": 0,
+									"high": 10,
+									"rate": 1,
+									"ratedUnit": "MB",
+									"unitSize": 10
+								},
+								{
+									"low": 11,
+									"high": 9223372036854775807,
+									"rate": 2,
+									"ratedUnit": "MB",
+									"unitSize": 10
+								}
+							],
+							"lastAccumRatedUsage": 0,
+							"ratingType": "TELESCOPIC",
+							"premiumRateType": "FUP",
+							"maxAllowedFUP": {
+								"rate": 4,
+								"ratedUnit": 9,
+								"unitSize": 10
+							}
+						}
+					],
+					"balanceChangeInfo": [
+						{
+							"balanceId": "BAL000000",
+							"debitAmount": 20,
+							"newBalance": 9980,
+							"balanceType": "GC",
+							"effectiveStartDate": "2023-03-27T07:37:09Z",
+							"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+						}
+					]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"roamType": "RT_INTERNATIONAL",
+			"subServiceType": "DATA-INTERNATIONAL-ROAMING",
+			"visitedMCCMNC": "50501",
+			"ratType": "\u0001"
+		}
+	},
+	"pduSessionChargingInformation": {
+		"pduSessionInformation": {
+			"chargingCharacteristics": "0800",
+			"chargingCharacteristicsSelectionMode": "Home_Default",
+			"diagnostics": 3,
+			"dnnId": "27::A4::B2",
+			"dnnSelectionMode": "3",
+			"pduAddress": {
+				"iPv4dynamicAddressFlag": true,
+				"pduAddressprefixlength": 32,
+				"dynamicAddressFlagExtension": true
+			},
+			"pduSessionID": 0,
+			"pduType": "PPP",
+			"ratType": "\u0001",
+			"startTime": "2036-02-07T06:28:16Z",
+			"pduContainerInformation": {
+				"chargingRuleBaseName": "Gold123",
+				"qoSInformation": {
+					"5qi": 3,
+					"gbrDl": "1000000000",
+					"gbrUl": "1000000000",
+					"maxbrDl": "1000000000",
+					"maxbrUl": "1000000000",
+					"qosId": "",
+					"bearerIdentifier": "A1F34",
+					"allocationRetentionPriority": {
+						"priorityLevel": 11,
+						"preEmptionCapability": 1,
+						"preEmptionVulnerability": 1
+					},
+					"apnAggregateMaxBitrateUL": 1000000000,
+					"apnAggregateMaxBitrateDL": 1000000000
+				}
+			}
+		},
+		"presenceReportingAreaInformation": {
+			"0": {
+				"praId": "A1F34",
+				"presenceState": "1",
+				"presenceReportingAreaElementsList": "24Fx"
+			}
+		},
+		"uetimeZone": "54696D657A6F6E653A20474D54202D3420686F7572732030206D696E75746573",
+		"userInformation": {
+			"unauthenticatedFlag": true
+		},
+		"userLocationTime": "2036-02-07T06:28:17Z",
+		"pDNConnectionChargingID": 185678,
+		"nodeId": "Node1234",
+		"sgsnAddress": [
+			"10.3.252.94"
+		],
+		"ggsnAddress": [
+			"10.3.252.94"
+		],
+		"tdfIPAddress": [
+			""
+		],
+		"servingNodeType": "MME",
+		"n3GPPIMSIMCCMNC": "50501",
+		"n3GPPGGSNMCCMNC": "50501",
+		"n3GPPNSAPI": "15",
+		"n3GPPSGSNMCCMNC": "50501",
+		"n3GPPUserLocationInfo": "0127f420c4d713b7",
+		"userCSGInformation": {
+			"csgId": 4567,
+			"csgAccessMode": 1,
+			"csgMembershipIndication": 1
+		},
+		"n3GPP2BSID": "5475.d0cd",
+		"twanUserLocationInfo": {
+			"ssid": "an::mip",
+			"bssid": "64:D9:89:43"
+		},
+		"pdpContextType": "SECONDARY",
+		"nbifomMode": "NETWORK_INITIATED",
+		"nbifomSupport": "NBIFOM_SUPPORTED",
+		"fixedUserLocationInfo": {
+			"ssid": "an::mip",
+			"bssid": "64:D9:89:43",
+			"physicalAccessID": "8A-38-AB-6A-01"
+		},
+		"sgiPtPTunnellingMethod": "Others",
+		"UNIPDUCPOnlyFlag": "UNI_PDU_CP_Only",
+		"servingPLMNRateControl": {
+			"uplinkRateLimit": 1000000000,
+			"downlinkRateLimit": 1000000000
+		},
+		"apnRateControl": {
+			"apnRateControlUplink": {
+				"additionalExceptionReports": "Allowed",
+				"rateControlMaxRate": 150000
+			},
+			"apnRateControlDownlink": {
+				"rateControlMaxMessageSize": 100000,
+				"rateControlMaxRate": 150000
+			}
+		},
+		"scsAsAddress": {
+			"scsRealm": "3gpporg.mcc404.mnc01.com"
+		},
+		"uwanUserLocationInfo": {
+			"udpSourcePort": 10576,
+			"ssid": "an::mip",
+			"bssid": "64:D9:89:43"
+		}
+	},
+	"userEquipmentInfo": "imeisv-3333333533383335333033353330333833303330333233303332333133303436",
+	"resultCode": "SUCCESS",
+	"originHost": "af1.mavenir.com",
+	"originRealm": "mavenir.com",
+	"cDCIdentifier": "SITE1"
+}

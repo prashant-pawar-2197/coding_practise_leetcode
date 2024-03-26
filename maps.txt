@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+	hm := make(map[string]int)
+	hm["alpha"] = 8
+	hm["bravo"] = 2
+	hm["charlie"] = 3
+
+	val, present := hm["alpha"]
+	//val will store the value and present will store if key is 
+	present in the map or not
+	
+	fmt.Println(val)
+	fmt.Println(present)
+	if !present {
+		fmt.Println("Mentioned key is not present")
+	} else if present {
+		fmt.Println("Mentioned key is present")
+	}
+}

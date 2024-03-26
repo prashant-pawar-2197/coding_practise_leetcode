@@ -1,0 +1,170 @@
+{
+    "causeForRecordClosing": "PartialCDRTimeLimit",
+    "chargingSessionIdentifier": "af1.TMDEP-15643.mavenir.com.mavenir.com;1096298391;58081",
+    "discount": 12.35,
+    "duration": 1,
+    "imsInfo": {
+        "accessNetworkInformation": [
+            "3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=310310138f0080801"
+        ],
+        "calledPartyAddress": "sip:+19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone",
+        "callingPartyAddress": [
+            "sip:14699162513@mavenir.com"
+        ],
+        "eventType": {
+            "sipMethod": "INVITE"
+        },
+        "iMSChargingIdentifier": "ocatf000.sip.lab.t-mobile.com-1521-66590-266619",
+        "instanceID": "urn:gsma:imei:35850508-002021-0",
+        "interOperatorIdentifier": [
+            {
+                "originatingIOI": "32345"
+            }
+        ],
+        "nodeFunctionality": 6,
+        "requestedPartyAddress": [
+            "sip:19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone"
+        ],
+        "roleofNode": 0,
+        "sDPSessionDescription": [
+            "v=0",
+            "o=SAMSUNG-IMS-UE 1521066588745339 0 IN IP4 10.169.60.36",
+            "s=SS VOIP",
+            "c=IN IP4 10.169.59.37",
+            "t=0 0"
+        ],
+        "timeStamps": {
+            "sIPRequestTimeStamp": "2036-02-07T06:28:17Z",
+            "sIPRequestTimeStampFraction": 404
+        },
+        "userSessionID": "000050D7F79C-3288-1689e700-48-5aa9a25e-59ddf"
+    },
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 5001,
+            "usedUnitContainer": [
+                {
+                    "localSequenceNumber": 0,
+                    "serviceId": 1,
+                    "time": 60
+                }
+            ]
+        }
+    ],
+    "localRecordSequenceNumber": "43d8046b-2913-4fa1-9019-8d5d2cfa4e35::606",
+    "originHost": "af1.mavenir.com",
+    "originRealm": "mavenir.com",
+    "recordExtensions": {
+        "chargeInformation": {
+            "calledCUGId": [
+                "u4-CUG103",
+                "CUG104",
+                "CUG105"
+            ],
+            "callingCUGId": [
+                "CUG101",
+                "CUG102",
+                "u4-CUG103"
+            ],
+            "debitAllowance": {
+                "debitAmount": 500000000,
+                "newBalance": 0,
+                "ratedUsageUnit": "UNITS"
+            },
+            "debitCash": {
+                "balanceChangeInfo": [
+                    {
+                        "balanceId": "BAL000000",
+                        "balanceType": "GC",
+                        "debitAmount": 1200000000,
+                        "effectiveExpiryDate": "2023-06-12T23:59:59Z",
+                        "effectiveStartDate": "2022-06-12T23:59:59Z",
+                        "newBalance": 8000000000
+                    }
+                ],
+                "discountProfile": {
+                    "discountAmount": 1050000000,
+                    "discountProfileId": "DP001",
+                    "discountProfileVer": "V0001"
+                },
+                "rateProfile": {
+                    "lastAccumRatedUsage": 4,
+                    "rateProfileId": "RP0000015",
+                    "rateProfileVer": "1",
+                    "rates": [
+                        {
+                            "high": 2,
+                            "low": 0,
+                            "rate": 0,
+                            "rateProfileId": "RP0000013",
+                            "ratedUnit": "SEC",
+                            "unitSize": 60
+                        },
+                        {
+                            "high": 110,
+                            "low": 3,
+                            "rate": 0,
+                            "rateProfileId": "RP0000014",
+                            "ratedUnit": "SEC",
+                            "unitSize": 60
+                        }
+                    ],
+                    "ratingType": "TIERED",
+                    "taxAmount": 0.4,
+                    "taxId": "Tax001"
+                },
+                "ratedUsage": 300
+            },
+            "ratingIndication": {
+                "localSequenceNumber": 0,
+                "packageId": "u4-PKGDIA0000002",
+                "packageInstanceId": "1",
+                "productId": "PKGDIA0000002_PRD0000011",
+                "productInstanceId": "1",
+                "ratingGroup": 5001
+            }
+        },
+        "extChargingInformation": {
+            "callDestinationType": "CDT_INTERNATIONAL",
+            "callLeg": "CL_MO",
+            "calledPartyTerminalType": "CPTT_FIXED_LINE",
+            "forwardedFlag": "FL_NON_FORWARDED",
+            "intlUsageZone": [
+                "u4-AUCKLAND"
+            ],
+            "networkFlag": "NF_OFFNET",
+            "ratType": "4G",
+            "roamType": "RT_INTERNATIONAL",
+            "roamUsageZone": [
+                "u4-PARIS"
+            ]
+        },
+        "requestType": "ONLINE_SESSION",
+        "spInformation": {
+            "spId": "00000333",
+            "spName": "T-Mobile"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "77008800",
+            "imsi": "202020000000001",
+            "msisdn": "14699162513",
+            "state": "ACTIVE",
+            "subCosID": "PrepaidBaseClass",
+            "subscriberId": "123e4567-e89b-12d3-a456-2020200001",
+            "tariffPlan": "PKGDIA0000002",
+            "taxExemption": true,
+            "type": "Prepaid"
+        },
+        "transactionType": "UPDATE"
+    },
+    "recordExtensions_spInformation_spId": "00000333",
+    "recordExtensions_subscriberInformation_type": "Prepaid",
+    "recordOpeningTime": "2022-10-11T04:08:30Z",
+    "recordSequenceNumber": 1,
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "remainingBalance": 12.35,
+    "resultCode": "SUCCESS",
+    "retailCharge": 0,
+    "subscriberIdentifier": "imsi-202020000000001",
+    "userEquipmentInfo": "imeisv-33353835303530383030323032313046"
+}

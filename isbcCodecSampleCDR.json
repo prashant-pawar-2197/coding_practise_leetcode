@@ -1,0 +1,8 @@
+{
+	"iBCFRecord_list-Of-SDP-Media-Components_0_media-Components-List_sIP-Request-Timestamp" : "2208010419462b0000",
+	"iBCFRecord_list-Of-SDP-Media-Components_0_media-Components-List_sIP-Response-Timestamp" : "2208010419472b0000",
+	"iBCFRecord_list-Of-SDP-Media-Components_0_media-Components-List_sDP-Media-Components_0_SDP-Media-Component_sDP-Media-Name" : "m=text 10004 RTP/AVP 101 8",
+	"iBCFRecord_list-Of-SDP-Media-Components_0_media-Components-List_sDP-Media-Components_0_SDP-Media-Component_sDP-Media-Descriptions_sDP-Media-Description" : "a=rtpmap:101 telephone-event/8000",
+	"iBCFRecord_list-Of-SDP-Media-Components_0_media-Components-List_sDP-Media-Components_1_SDP-Media-Component_sDP-Media-Name" : "m=audio 10004 RTP/AVP 101 8",
+	"iBCFRecord_list-Of-SDP-Media-Components_0_media-Components-List_sDP-Media-Components_1_SDP-Media-Component_sDP-Media-Descriptions_sDP-Media-Description" : "a=rtpmap:101 telephone-event/8200"
+}

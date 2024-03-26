@@ -1,0 +1,263 @@
+{
+	"recordType": "MMS-MOBILE-ORIGINATED",
+	"recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+	"chargingSessionIdentifier": "af1.FRN-16271-TMDEP-41580;58081",
+	"subscriberIdentifier": "imsi-162710000000034",
+	"listOfMultipleUnitUsage": [{
+		"ratingGroup": 3,
+		"usedUnitContainer": [{
+			"eventTimeStamps": [
+				"2023-04-27T07:43:59Z"
+			],
+			"localSequenceNumber": 0,
+			"totalVolume": 15000000
+		}]
+	}],
+	"recordOpeningTime": "2023-04-27T07:43:59Z",
+	"duration": 0,
+	"recordSequenceNumber": 0,
+	"causeForRecordClosing": "NormalRelease",
+	"localRecordSequenceNumber": "b8e3067d-1f95-4b8f-8fe6-20d056c9bc66::201",
+	"recordExtensions": {
+		"transactionType": "EVENT",
+		"requestType": "ONLINE_EVENT",
+		"spInformation": {
+			"spId": "00000011",
+			"spName": "T-Mobile"
+		},
+		"subscriberInformation": {
+			"billingAcctId": "0843634681",
+			"type": "Postpaid",
+			"state": "ACTIVE",
+			"msisdn": "1627100034",
+			"imsi": "162710000000034",
+			"subCosID": "PrepaidBaseClass",
+			"tariffPlan": "PKGMMSV01",
+			"subscriberId": "123e4567-e89b-12d3-a456-1627100034",
+			"taxExemption": false,
+			"btpExpireTime": "2023-05-27T23:59:59Z"
+		},
+		"chargeInformation": [{
+				"ratingIndication": {
+					"packageId": "PKGMMSV01",
+					"productId": "PKGMMSV01_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"defaultPulse": 1,
+					"defaultPulseUnit": "BYTES",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-05-27T23:59:59Z",
+					"callingCUGId": [
+						"string"
+					],
+					"reservationTime": "2023-04-27T07:43:59Z",
+					"balanceType": "MMS"
+				},
+				"debitAllowance": {
+					"debitAmount": 5000000,
+					"newBalance": 0,
+					"ratedUsageUnit": "BYTES"
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGMMSV01",
+					"productId": "PKGMMSV01_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"effectiveExpiryDate": "2023-05-27T23:59:59Z",
+					"callingCUGId": [
+						"string"
+					],
+					"reservationTime": "2023-04-27T07:43:59Z",
+					"balanceType": "MMS"
+				},
+				"debitCash": {
+					"rateProfile": [{
+						"rateProfileId": "RPMMS_T1_0_5M_1M1C_T2_6M_MAX_2M1C",
+						"rateProfileVer": "1",
+						"rates": [{
+								"low": 0,
+								"high": 5,
+								"rate": 1,
+								"ratedUnit": "MB",
+								"unitSize": 1
+							},
+							{
+								"low": 6,
+								"high": 9223372036854775807,
+								"rate": 1,
+								"ratedUnit": "MB",
+								"unitSize": 2
+							}
+						],
+						"lastAccumRatedUsage": 0,
+						"ratingType": "TIERED",
+						"premiumRateType": "RP",
+						"taxAmount": 1.8
+					}],
+					"discountProfile": {
+						"discountProfileId": "DP40Peak",
+						"discountProfileVer": "1",
+						"discountAmount": 6
+					},
+					"balanceChangeInfo": [{
+						"balanceId": "BAL000000",
+						"debitAmount": 8,
+						"newBalance": 9992,
+						"balanceType": "GC",
+						"effectiveStartDate": "2023-03-27T07:43:42Z",
+						"effectiveExpiryDate": "2030-04-07T23:59:59Z"
+					}],
+					"ratedUsage": 11000000
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGMMSV01",
+					"productId": "PKGMMSV01_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-04-27T07:43:59Z"
+				},
+				"debitCash": {
+					"rateProfile": [{
+						"rateProfileId": "91003_FUP_MMS",
+						"rateProfileVer": "1",
+						"rates": [{
+								"low": 0,
+								"high": 10,
+								"rate": 1,
+								"ratedUnit": "MB",
+								"unitSize": 1
+							},
+							{
+								"low": 11,
+								"high": 9223372036854775807,
+								"rate": 1,
+								"ratedUnit": "MB",
+								"unitSize": 2
+							}
+						],
+						"lastAccumRatedUsage": 0,
+						"ratingType": "TELESCOPIC",
+						"premiumRateType": "FUP",
+						"adjustedFUPAmount": 5,
+						"taxAmount": 2,
+						"maxAllowedFUP": {
+							" rate ": 1,
+							" ratedUnit ": 9,
+							" unitSize ": 1
+						}
+					}],
+					"discountProfile": {
+						"discountProfileId": "DP40Peak",
+						"discountProfileVer": "1",
+						"discountAmount": 6
+					},
+					"balanceChangeInfo": [{
+						"balanceId": "BAL000000",
+						"debitAmount": 8,
+						"newBalance": 9984,
+						"balanceType": "GC",
+						"effectiveStartDate": "",
+						"effectiveExpiryDate": ""
+					}]
+				}
+			},
+			{
+				"ratingIndication": {
+					"packageId": "PKGMMSV01",
+					"productId": "PKGMMSV01_PRD0000001",
+					"ratingGroup": 3,
+					"packageInstanceId": "1",
+					"productInstanceId": "1",
+					"localSequenceNumber": 0,
+					"reservationTime": "2023-04-27T07:43:59Z"
+				},
+				"debitCash": {
+					"rateProfile": [{
+						"rateProfileId": "91002_NUC_MMS",
+						"rateProfileVer": "1",
+						"rates": [{
+								"low": 0,
+								"high": 10,
+								"rate": 1,
+								"ratedUnit": "MB",
+								"unitSize": 1
+							},
+							{
+								"low": 11,
+								"high": 9223372036854775807,
+								"rate": 1,
+								"ratedUnit": "MB",
+								"unitSize": 2
+							}
+						],
+						"lastAccumRatedUsage": 0,
+						"ratingType": "TELESCOPIC",
+						"premiumRateType": "NetworkUsage",
+						"adjustedFUPAmount": 5,
+						"taxAmount": 4,
+						"maxAllowedFUP": {
+							" rate ": 1,
+							" ratedUnit ": 9,
+							" unitSize ": 1
+						}
+					}],
+					"discountProfile": {
+						"discountProfileId": "DP40Peak",
+						"discountProfileVer": "1",
+						"discountAmount": 10
+					},
+					"balanceChangeInfo": [{
+						"balanceId": "BAL000000",
+						"debitAmount": 8,
+						"newBalance": 9976,
+						"balanceType": "GC",
+						"effectiveStartDate": "",
+						"effectiveExpiryDate": ""
+					}]
+				}
+			}
+		],
+		"extChargingInformation": {
+			"callDestinationType": "CDT_INTERNATIONAL",
+			"roamType": "RT_INTERNATIONAL",
+			"networkFlag": "NF_OFFNET",
+			"callLeg": "CL_MO",
+			"subServiceType": "MO - INTERNATIONAL - ROAMING"
+		}
+	},
+	"mmsInfo": {
+		"origAddress": {
+			"sMaddressData": "499112233445",
+			"sMaddressDomain": {
+				"3GPPIMSIMCCMNC": "1627100034 @ mavenir.lab;rn = D009"
+			},
+			"sMaddressType": "MSISDN"
+		},
+		"recipientAddress": [{
+			"sMaddressData": "sip: +204991443922",
+			"sMaddressDomain": {
+				"3GPPIMSIMCCMNC": "26221"
+			},
+			"sMaddressType": "MSISDN"
+		}],
+		"submissionTime": "2036 - 02 - 07T06: 34: 56Z",
+		"messageID": "123ab"
+	},
+	"ccCorrelationID": "1",
+	"psInfo": {
+		"tgppSGSNMCCMNC": "26322"
+	},
+	"resultCode": "SUCCESS",
+	"originHost": "af1.mavenir.com",
+	"originRealm": "mavenir.com",
+	"cDCIdentifier": "SITE1"
+}

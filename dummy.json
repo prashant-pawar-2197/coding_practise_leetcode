@@ -1,0 +1,12 @@
+{
+    "accessNetworkChangeInfo": [
+        {
+            "accessNetworkInformation": "PLMN2",
+            "accessChangeTime": "11:02"
+        },
+        {
+            "accessNetworkInformation": "PLMN1",
+            "accessChangeTime": "11:04"
+        }
+    ]
+}

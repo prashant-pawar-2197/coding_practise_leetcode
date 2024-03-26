@@ -1,0 +1,199 @@
+{
+    "recordType": "MOBILE-ORIGINATED",
+    "recordingNetworkFunctionId": "d096c21b-0ea5-4fe4-bf8d-f14c066f89fa",
+    "chargingSessionIdentifier": "af1.TMDEP-30089.mavenir.com.mavenir.com;1096298391;58081",
+    "subscriberIdentifier": "imsi-7983000000015",
+    "listOfMultipleUnitUsage": [
+        {
+            "ratingGroup": 5001,
+            "usedUnitContainer": [
+                {
+                    "localSequenceNumber": 0,
+                    "serviceId": 1,
+                    "time": 120
+                }
+            ]
+        }
+    ],
+    "recordOpeningTime": "2022-08-12T06:58:52Z",
+    "duration": 13,
+    "recordSequenceNumber": 1,
+    "causeForRecordClosing": "PartialCDRTimeLimit",
+    "localRecordSequenceNumber": "57475832-ed4b-455e-b5ce-b1a86cf7f6f8::877",
+    "recordExtensions": {
+        "transactionType": "UPDATE",
+        "requestType": "ONLINE_SESSION",
+        "spInformation": {
+            "spId": "SPFRN7983",
+            "spName": "T-Mobile"
+        },
+        "subscriberInformation": {
+            "billingAcctId": "77008800",
+            "type": "Prepaid",
+            "state": "ACTIVE",
+            "msisdn": "79830000015",
+            "imsi": "7983000000015",
+            "subCosID": "PrepaidBaseClass",
+            "tariffPlan": "PKGDIA0000003",
+            "subscriberId": "123e4567-e89b-12d3-a456-798300015",
+            "taxExemption": false
+        },
+        "chargeInformation": [
+            {
+                "ratingIndication": {
+                    "packageId": "PKGDIA0000003",
+                    "productId": "PKGDIA0000003_PRD0000015",
+                    "ratingGroup": 5001,
+                    "packageInstanceId": "1",
+                    "productInstanceId": "1",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2022-09-11T06:58:20Z",
+                    "callingCUGId": [
+                        "string"
+                    ],
+                    "reservationTime": "2022-08-12T06:58:36Z"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "RP0000015",
+                            "rateProfileVer": "1",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 2,
+                                    "rate": 0,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60,
+                                    "rateProfileId": "RP0000013"
+                                },
+                                {
+                                    "low": 3,
+                                    "high": 4611686018427387903,
+                                    "rate": 0,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60,
+                                    "rateProfileId": "RP0000014"
+                                }
+                            ],
+                            "lastAccumRatedUsage": 1,
+                            "taxId": "Tax001",
+                            "ratingType": "TIERED",
+                            "taxAmount": 0.4
+                        }
+                    ],
+                    "discountProfile": {
+                        "discountProfileId": "DP0000015",
+                        "discountProfileVer": "1",
+                        "discountAmount": 10.2
+                    },
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 10,
+                            "newBalance": 990,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2020-04-07T00:00:00Z",
+                            "effectiveExpiryDate": "2030-04-21T10:12:13Z"
+                        }
+                    ],
+                    "ratedUsage": 120
+                }
+            },
+            {
+                "ratingIndication": {
+                    "packageId": "PKGDIA0000003",
+                    "productId": "PKGDIA0000003_PRD0000015",
+                    "ratingGroup": 5001,
+                    "packageInstanceId": "1",
+                    "productInstanceId": "1",
+                    "localSequenceNumber": 0,
+                    "effectiveExpiryDate": "2022-09-11T06:58:20Z",
+                    "callingCUGId": [
+                        "string"
+                    ],
+                    "reservationTime": "2022-08-12T06:58:36Z"
+                },
+                "debitCash": {
+                    "rateProfile": [
+                        {
+                            "rateProfileId": "RP0000015",
+                            "rateProfileVer": "1",
+                            "rates": [
+                                {
+                                    "low": 0,
+                                    "high": 2,
+                                    "rate": 0,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60,
+                                    "rateProfileId": "RP0000013"
+                                },
+                                {
+                                    "low": 3,
+                                    "high": 4611686018427387903,
+                                    "rate": 0,
+                                    "ratedUnit": "SEC",
+                                    "unitSize": 60,
+                                    "rateProfileId": "RP0000014"
+                                }
+                            ],
+                            "lastAccumRatedUsage": 1,
+                            "taxId": "Tax001",
+                            "ratingType": "TIERED",
+                            "taxAmount": 0.6
+                        }
+                    ],
+                    "discountProfile": {
+                        "discountProfileId": "DP0000015",
+                        "discountProfileVer": "1",
+                        "discountAmount": 10.2
+                    },
+                    "balanceChangeInfo": [
+                        {
+                            "balanceId": "BAL000000",
+                            "debitAmount": 10,
+                            "newBalance": 990,
+                            "balanceType": "GC",
+                            "effectiveStartDate": "2020-04-07T00:00:00Z",
+                            "effectiveExpiryDate": "2030-04-21T10:12:13Z"
+                        }
+                    ],
+                    "ratedUsage": 120
+                }
+            }
+        ]
+    },
+    "userEquipmentInfo": "imeisv-33353835303530383030323032313046",
+    "imsInfo": {
+        "roleofNode": 0,
+        "callingPartyAddress": [
+            "sip:79830000015@mavenir.com"
+        ],
+        "calledPartyAddress": "sip:+19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone",
+        "interOperatorIdentifier": [
+            {
+                "originatingIOI": "32345"
+            }
+        ],
+        "iMSChargingIdentifier": "ocatf000.sip.lab.t-mobile.com-1521-66590-266619",
+        "accessNetworkInformation": [
+            "3GPP-E-UTRAN-FDD;utran-cell-id-3gpp=310310138f0080801"
+        ],
+        "instanceID": "urn:gsma:imei:35850508-002021-0",
+        "eventType": {
+            "sipMethod": "INVITE"
+        },
+        "userSessionID": "000050D7F79C-3288-1689e700-48-5aa9a25e-59ddf",
+        "nodeFunctionality": 6,
+        "requestedPartyAddress": [
+            "sip:19144392231;phone-context=mavenir.com@msg.lab.t-mobile.com;user=phone"
+        ],
+        "timeStamps": {
+            "sIPRequestTimeStamp": "2036-02-07T06:28:17Z",
+            "sIPRequestTimeStampFraction": 404
+        }
+    },
+    "resultCode": "SUCCESS",
+    "originHost": "af1.mavenir.com",
+    "originRealm": "mavenir.com"
+}
